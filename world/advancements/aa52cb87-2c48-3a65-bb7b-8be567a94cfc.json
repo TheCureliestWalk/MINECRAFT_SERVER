@@ -40,6 +40,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-06-07 16:50:52 +0700",
       "apple": "2025-05-28 22:28:51 +0700",
       "bread": "2025-05-28 23:27:18 +0700",
       "cooked_chicken": "2025-05-28 22:24:12 +0700",
@@ -295,15 +296,20 @@
       "minecraft:skeleton": "2025-05-28 23:28:48 +0700",
       "minecraft:phantom": "2025-05-30 16:17:49 +0700",
       "minecraft:zombified_piglin": "2025-06-06 01:45:53 +0700",
+      "minecraft:witch": "2025-06-07 16:46:49 +0700",
       "minecraft:wither_skeleton": "2025-06-01 01:27:47 +0700",
+      "minecraft:ravager": "2025-06-07 16:46:06 +0700",
       "minecraft:hoglin": "2025-06-01 01:08:53 +0700",
       "minecraft:cave_spider": "2025-05-28 22:58:19 +0700",
+      "minecraft:vindicator": "2025-06-07 16:44:57 +0700",
       "minecraft:magma_cube": "2025-06-01 01:22:32 +0700",
       "minecraft:spider": "2025-05-28 22:26:52 +0700",
+      "minecraft:vex": "2025-06-07 16:48:08 +0700",
       "minecraft:zombie": "2025-05-28 22:26:17 +0700",
       "minecraft:creeper": "2025-05-28 22:26:07 +0700",
       "minecraft:drowned": "2025-06-03 03:23:06 +0700",
-      "minecraft:zombie_villager": "2025-05-28 23:30:38 +0700"
+      "minecraft:zombie_villager": "2025-05-28 23:30:38 +0700",
+      "minecraft:evoker": "2025-06-07 16:48:08 +0700"
     },
     "done": false
   },
@@ -2794,6 +2800,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-06 09:38:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-06 09:38:45 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/copper_block": {
     "criteria": {
       "has_copper_ingot": "2025-06-06 09:46:32 +0700"
@@ -2806,45 +2824,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
-    "criteria": {
-      "has_mossy_cobblestone": "2025-06-06 10:02:55 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/copper_door": {
     "criteria": {
       "has_copper_ingot": "2025-06-06 09:46:32 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2025-06-06 09:38:45 +0700"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/tactical_fishing": {
-    "criteria": {
-      "tropical_fish_bucket": "2025-06-06 09:46:43 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2025-06-06 10:02:55 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2025-06-06 09:38:45 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2025-06-06 10:02:55 +0700"
     },
     "done": true
   },
@@ -2854,21 +2836,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/copper_trapdoor": {
+    "criteria": {
+      "has_copper_ingot": "2025-06-06 09:46:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2025-06-06 09:46:43 +0700"
+    },
+    "done": true
+  },
   "minecraft:husbandry/axolotl_in_a_bucket": {
     "criteria": {
       "axolotl_bucket": "2025-06-06 09:56:04 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
     "criteria": {
       "has_mossy_cobblestone": "2025-06-06 10:02:55 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/copper_trapdoor": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "has_copper_ingot": "2025-06-06 09:46:32 +0700"
+      "has_mossy_cobblestone": "2025-06-06 10:02:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-06 10:02:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-06 10:02:55 +0700"
     },
     "done": true
   },
@@ -2881,6 +2887,24 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
     "criteria": {
       "has_mossy_cobblestone": "2025-06-06 10:02:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2025-06-07 17:02:20 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2025-06-07 17:02:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-06-07 17:19:21 +0700"
     },
     "done": true
   },
