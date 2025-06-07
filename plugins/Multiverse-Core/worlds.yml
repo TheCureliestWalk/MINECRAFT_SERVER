@@ -34,12 +34,12 @@ world:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    water_animal:
+    axolotl:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    monster:
+    water_ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -49,22 +49,22 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     water_underground_creature:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    water_ambient:
+    monster:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -112,12 +112,12 @@ world_nether:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    monster:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1

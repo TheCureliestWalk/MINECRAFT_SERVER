@@ -16,17 +16,17 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749297319506
-  login: 1749294159439
+  logout: 1749299623246
+  login: 1749298223234
 money: '0'
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 343.8430225355417
-  y: 96.375
-  z: -485.6077737232142
-  yaw: 55.79962158203125
-  pitch: 44.400020599365234
+  x: 332.3319332923097
+  y: 94.0
+  z: -508.65674147167306
+  yaw: -15.152099609375
+  pitch: 9.149970054626465
 last-account-name: IjoZyet
 lastlocation:
   world: de83fa23-c36e-472c-81ff-b52cd7769bc3
