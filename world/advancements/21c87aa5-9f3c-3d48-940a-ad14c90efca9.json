@@ -2534,51 +2534,9 @@
     },
     "done": false
   },
-  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
-    "criteria": {
-      "has_copper_ore": "2025-06-08 17:04:08 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon_from_smoking": {
-    "criteria": {
-      "has_salmon": "2025-06-08 18:18:14 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather": {
-    "criteria": {
-      "has_rabbit_hide": "2025-06-08 18:52:21 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2025-06-08 16:45:11 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
-    "criteria": {
-      "has_salmon": "2025-06-08 18:18:14 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon": {
-    "criteria": {
-      "has_salmon": "2025-06-08 18:18:14 +0700"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "pumpkin_stem": "2025-06-08 19:13:24 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
-    "criteria": {
-      "has_copper_ore": "2025-06-08 17:04:08 +0700"
     },
     "done": true
   },
@@ -2594,11 +2552,65 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-06-08 17:04:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-06-08 17:04:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-06-08 18:18:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-06-08 18:18:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-06-08 18:18:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-06-08 18:52:21 +0700"
+    },
+    "done": true
+  },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
       "minecraft:siamese": "2025-06-08 19:00:54 +0700"
     },
     "done": false
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "pumpkin_stem": "2025-06-08 19:13:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2025-06-08 23:38:18 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2025-06-08 23:38:18 +0700"
+    },
+    "done": true
   },
   "DataVersion": 4189
 }

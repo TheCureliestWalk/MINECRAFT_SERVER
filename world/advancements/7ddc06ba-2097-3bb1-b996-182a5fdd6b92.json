@@ -12,6 +12,7 @@
       "minecraft:forest": "2025-05-28 21:49:06 +0700",
       "minecraft:taiga": "2025-05-29 03:00:18 +0700",
       "minecraft:deep_ocean": "2025-05-31 02:44:55 +0700",
+      "minecraft:lush_caves": "2025-06-09 01:04:19 +0700",
       "minecraft:desert": "2025-05-31 01:27:56 +0700",
       "minecraft:ocean": "2025-05-30 22:37:04 +0700",
       "minecraft:jungle": "2025-05-31 01:27:40 +0700",
@@ -1056,6 +1057,7 @@
   },
   "minecraft:husbandry/whole_pack": {
     "criteria": {
+      "minecraft:woods": "2025-06-09 01:50:01 +0700",
       "minecraft:snowy": "2025-05-28 23:21:19 +0700"
     },
     "done": false
@@ -1180,6 +1182,8 @@
       "minecraft:goat": "2025-05-30 03:38:48 +0700",
       "minecraft:chicken": "2025-05-29 02:42:07 +0700",
       "minecraft:pig": "2025-05-30 16:34:13 +0700",
+      "minecraft:wolf": "2025-06-09 01:51:36 +0700",
+      "minecraft:panda": "2025-06-09 00:07:45 +0700",
       "minecraft:sheep": "2025-05-29 00:37:32 +0700",
       "minecraft:bee": "2025-06-07 18:14:38 +0700"
     },
@@ -3951,6 +3955,36 @@
   "minecraft:recipes/misc/raw_iron": {
     "criteria": {
       "has_raw_iron_block": "2025-06-08 17:40:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-06-09 01:07:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-06-09 01:07:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-06-09 01:07:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2025-06-09 01:15:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2025-06-09 01:15:37 +0700"
     },
     "done": true
   },

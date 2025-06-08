@@ -3965,21 +3965,39 @@
     },
     "done": true
   },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2025-06-08 13:30:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2025-06-08 13:42:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2025-06-08 13:42:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2025-06-08 13:42:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2025-06-08 14:16:37 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-06-08 15:56:12 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
     },
     "done": true
   },
@@ -3995,45 +4013,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
-    "criteria": {
-      "has_deepslate_diamond_ore": "2025-06-08 17:32:37 +0700"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/make_a_sign_glow": {
-    "criteria": {
-      "make_a_sign_glow": "2025-06-08 13:30:48 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tuff_slab": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/lime_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-06-08 15:56:12 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/honey_bottle": {
-    "criteria": {
-      "has_honey_block": "2025-06-08 14:16:37 +0700"
     },
     "done": true
   },
@@ -4043,39 +4025,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/tuff_wall": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/pink_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-06-08 15:56:12 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/cyan_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-06-08 15:56:12 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tuff_stairs": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
     },
     "done": true
   },
@@ -4091,33 +4049,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/brown_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-06-08 15:56:12 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
-    "criteria": {
-      "has_deepslate_redstone_ore": "2025-06-08 17:31:38 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
     },
     "done": true
   },
@@ -4127,63 +4061,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sugar_from_honey_bottle": {
-    "criteria": {
-      "has_honey_bottle": "2025-06-08 13:42:13 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/magenta_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-06-08 15:56:12 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/honey_block": {
-    "criteria": {
-      "has_honey_bottle": "2025-06-08 13:42:13 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/light_gray_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-06-08 15:56:12 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_tuff": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
-    "criteria": {
-      "has_deepslate_redstone_ore": "2025-06-08 17:31:38 +0700"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/safely_harvest_honey": {
-    "criteria": {
-      "safely_harvest_honey": "2025-06-08 13:42:13 +0700"
     },
     "done": true
   },
@@ -4199,9 +4085,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
+  "minecraft:recipes/decorations/black_shulker_box": {
     "criteria": {
-      "has_tuff": "2025-06-08 17:34:40 +0700"
+      "has_shulker_box": "2025-06-08 15:56:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2025-06-08 17:31:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2025-06-08 17:31:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2025-06-08 17:32:37 +0700"
     },
     "done": true
   },
@@ -4211,9 +4115,231 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_shulker_box": {
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
     "criteria": {
-      "has_shulker_box": "2025-06-08 15:56:12 +0700"
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-08 17:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-06-09 00:02:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-06-09 00:07:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-06-09 00:07:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-06-09 00:07:44 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-06-09 00:07:44 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_pale_oak_wood": {
+    "criteria": {
+      "has_log": "2025-06-09 00:18:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_planks": {
+    "criteria": {
+      "has_log": "2025-06-09 00:18:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_wood": {
+    "criteria": {
+      "has_log": "2025-06-09 00:18:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pale_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-06-09 00:18:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/green_bundle": {
+    "criteria": {
+      "has_green_dye": "2025-06-09 01:30:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-09 01:30:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-09 01:30:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_green_dye": "2025-06-09 01:30:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2025-06-09 01:30:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-06-09 01:30:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_lime_dye": "2025-06-09 01:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-06-09 01:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lime_bundle": {
+    "criteria": {
+      "has_lime_dye": "2025-06-09 01:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_candle": {
+    "criteria": {
+      "has_lime_dye": "2025-06-09 01:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-09 01:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-09 01:30:51 +0700"
     },
     "done": true
   },
