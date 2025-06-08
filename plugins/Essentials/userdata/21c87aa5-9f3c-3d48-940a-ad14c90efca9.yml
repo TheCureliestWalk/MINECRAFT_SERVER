@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 26.142.251.173
+ip-address: 10.154.1.200
 afk: false
 socialspy: false
 npc: false
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749057923786
-  login: 1749050973241
-money: '0'
+  logout: 1749387483779
+  login: 1749372201257
+money: '300'
 last-account-name: VeLxze
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 420.06505332288395
-  y: 65.0
-  z: -863.2328555662639
-  yaw: -96.93968963623047
-  pitch: 34.949031829833984
+  x: 444.82158431160786
+  y: 74.0
+  z: -847.0749999880791
+  yaw: -135.87255859375
+  pitch: 37.49955749511719
 mail:
 - legacy: false
   read: false

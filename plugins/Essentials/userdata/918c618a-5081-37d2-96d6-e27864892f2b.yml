@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 10.154.1.200
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749372644673
+  login: 1749370355395
+money: '0'
+last-account-name: JellyBios
+logoutlocation:
+  world: de83fa23-c36e-472c-81ff-b52cd7769bc3
+  world-name: world_nether
+  x: 120.25747676281968
+  y: 36.0
+  z: 89.47579325271126
+  yaw: 152.22998046875
+  pitch: 20.97818374633789

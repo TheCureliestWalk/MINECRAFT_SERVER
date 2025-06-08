@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-06-03 18:56:26 +0700",
+      "minecraft:snowy_slopes": "2025-06-08 19:25:01 +0700",
       "minecraft:old_growth_pine_taiga": "2025-06-04 13:03:50 +0700",
       "minecraft:forest": "2025-05-29 21:31:09 +0700",
       "minecraft:taiga": "2025-06-03 19:31:29 +0700",
@@ -683,8 +684,11 @@
       "minecraft:pillager": "2025-06-03 19:34:43 +0700",
       "minecraft:skeleton": "2025-05-30 00:25:18 +0700",
       "minecraft:phantom": "2025-06-04 12:08:26 +0700",
+      "minecraft:zombified_piglin": "2025-06-08 17:53:45 +0700",
+      "minecraft:silverfish": "2025-06-08 16:36:50 +0700",
       "minecraft:spider": "2025-05-29 22:18:00 +0700",
       "minecraft:zombie": "2025-05-29 22:39:36 +0700",
+      "minecraft:drowned": "2025-06-08 18:20:58 +0700",
       "minecraft:zombie_villager": "2025-06-04 13:36:50 +0700"
     },
     "done": false
@@ -1355,6 +1359,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:pig": "2025-06-03 18:51:01 +0700",
+      "minecraft:panda": "2025-06-08 18:10:24 +0700",
       "minecraft:axolotl": "2025-06-04 22:59:31 +0700"
     },
     "done": false
@@ -2499,11 +2504,17 @@
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
     "criteria": {
-      "minecraft:crimson_forest": "2025-06-04 23:51:49 +0700"
+      "has_cod": "2025-06-04 22:50:21 +0700"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-06-04 22:50:21 +0700"
+    },
+    "done": true
   },
   "minecraft:nether/root": {
     "criteria": {
@@ -2517,17 +2528,77 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "has_cod": "2025-06-04 22:50:21 +0700"
+      "minecraft:crimson_forest": "2025-06-04 23:51:49 +0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-06-08 17:04:08 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod": {
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
     "criteria": {
-      "has_cod": "2025-06-04 22:50:21 +0700"
+      "has_salmon": "2025-06-08 18:18:14 +0700"
     },
     "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-06-08 18:52:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-06-08 16:45:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-06-08 18:18:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-06-08 18:18:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "pumpkin_stem": "2025-06-08 19:13:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-06-08 17:04:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-06-08 16:45:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2025-06-08 16:46:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:siamese": "2025-06-08 19:00:54 +0700"
+    },
+    "done": false
   },
   "DataVersion": 4189
 }
