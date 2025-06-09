@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 10.154.1.200
+ip-address: ''
 afk: false
 socialspy: false
 npc: false
@@ -16,31 +16,14 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749323506393
-  login: 1749308508851
-money: '1800'
-last-account-name: Kcin404
+  logout: 1749467559389
+  login: 0
+money: '0'
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: -36.67885331155761
-  y: 65.0
-  z: -427.0305881148114
-  yaw: -126.59505462646484
-  pitch: 3.750033140182495
-mail:
-- legacy: false
-  read: false
-  message: '!!HELLO!!'
-  sender-name: IjoZyet
-  sender-uuid: 7ddc06ba-2097-3bb1-b996-182a5fdd6b92
-  timestamp: 1749118338621
-  expire: 0
-lastlocation:
-  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
-  world-name: world
-  x: 1678.6630929561709
-  y: 37.0
-  z: 600.4153474096767
-  yaw: -29.699676513671875
-  pitch: 37.65004348754883
+  x: 367.74484046764337
+  y: 94.0
+  z: -487.32853678055295
+  yaw: 94.50747680664062
+  pitch: 20.399866104125977
