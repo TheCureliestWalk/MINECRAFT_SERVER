@@ -3339,5 +3339,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-06-10 12:07:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-06-10 12:07:29 +0700"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }
