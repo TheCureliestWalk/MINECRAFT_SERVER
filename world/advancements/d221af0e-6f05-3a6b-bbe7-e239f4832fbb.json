@@ -1087,6 +1087,7 @@
       "minecraft:chicken": "2025-05-29 22:54:13 +0700",
       "minecraft:pig": "2025-05-29 22:56:23 +0700",
       "minecraft:turtle": "2025-06-01 04:44:45 +0700",
+      "minecraft:sheep": "2025-06-09 23:01:53 +0700",
       "minecraft:bee": "2025-06-07 02:25:25 +0700"
     },
     "done": false
@@ -4340,6 +4341,30 @@
   "minecraft:recipes/building_blocks/dye_lime_carpet": {
     "criteria": {
       "has_needed_dye": "2025-06-09 01:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_planks": {
+    "criteria": {
+      "has_logs": "2025-06-09 21:37:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_wood": {
+    "criteria": {
+      "has_log": "2025-06-09 21:37:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2025-06-09 22:52:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2025-06-09 22:52:53 +0700"
     },
     "done": true
   },
