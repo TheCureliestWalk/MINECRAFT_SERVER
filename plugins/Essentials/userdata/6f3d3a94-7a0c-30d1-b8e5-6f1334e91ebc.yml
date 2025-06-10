@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 10.154.1.200
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749567758999
+  login: 1749542896393
+money: '0'
+last-account-name: BigDickNoMercy
+lastlocation:
+  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+  world-name: world
+  x: 376.33960962521326
+  y: 93.67647087614428
+  z: -664.8945399113614
+  yaw: -179.99908447265625
+  pitch: 22.499876022338867
+logoutlocation:
+  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+  world-name: world
+  x: 344.6302163160914
+  y: 92.0
+  z: -793.1809252836939
+  yaw: 173.3993682861328
+  pitch: 13.3500394821167

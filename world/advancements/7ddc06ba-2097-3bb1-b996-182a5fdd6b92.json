@@ -13,7 +13,11 @@
       "minecraft:taiga": "2025-05-29 03:00:18 +0700",
       "minecraft:deep_ocean": "2025-05-31 02:44:55 +0700",
       "minecraft:lush_caves": "2025-06-09 01:04:19 +0700",
+      "minecraft:deep_cold_ocean": "2025-06-10 20:15:19 +0700",
+      "minecraft:frozen_ocean": "2025-06-10 22:12:14 +0700",
       "minecraft:desert": "2025-05-31 01:27:56 +0700",
+      "minecraft:frozen_river": "2025-06-10 20:18:13 +0700",
+      "minecraft:deep_frozen_ocean": "2025-06-10 22:12:08 +0700",
       "minecraft:ocean": "2025-05-30 22:37:04 +0700",
       "minecraft:jungle": "2025-05-31 01:27:40 +0700",
       "minecraft:sunflower_plains": "2025-05-29 00:08:10 +0700",
@@ -34,6 +38,7 @@
       "minecraft:lukewarm_ocean": "2025-05-31 01:25:35 +0700",
       "minecraft:stony_shore": "2025-05-29 22:47:39 +0700",
       "minecraft:dripstone_caves": "2025-05-31 02:05:17 +0700",
+      "minecraft:snowy_taiga": "2025-06-10 20:18:08 +0700",
       "minecraft:old_growth_birch_forest": "2025-06-08 02:14:29 +0700",
       "minecraft:deep_dark": "2025-06-08 17:28:59 +0700",
       "minecraft:grove": "2025-05-28 21:48:56 +0700",
@@ -417,6 +422,7 @@
       "beetroot": "2025-05-29 22:40:31 +0700",
       "apple": "2025-05-29 01:45:33 +0700",
       "cooked_chicken": "2025-05-29 03:25:14 +0700",
+      "potato": "2025-06-10 15:31:00 +0700",
       "cooked_cod": "2025-06-09 22:07:00 +0700",
       "poisonous_potato": "2025-06-03 18:27:37 +0700",
       "cooked_salmon": "2025-05-31 23:51:19 +0700",
@@ -513,7 +519,8 @@
       "minecraft:vex": "2025-06-07 01:43:48 +0700",
       "minecraft:zombie": "2025-05-28 22:44:13 +0700",
       "minecraft:creeper": "2025-05-31 02:30:54 +0700",
-      "minecraft:drowned": "2025-05-31 01:39:38 +0700"
+      "minecraft:drowned": "2025-05-31 01:39:38 +0700",
+      "minecraft:zombie_villager": "2025-06-10 23:50:10 +0700"
     },
     "done": false
   },
@@ -4113,6 +4120,18 @@
   "minecraft:recipes/food/honey_bottle": {
     "criteria": {
       "has_honey_block": "2025-06-09 23:08:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_the_recipe": "2025-06-10 15:25:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2025-06-11 00:07:51 +0700"
     },
     "done": true
   },

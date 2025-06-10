@@ -287,6 +287,8 @@ Plugins:
     Towny:
         HideTowns:
           - ExampleTown
+    ViaVersion:
+        Enabled: true
 # The files are placed in /Plan/web/ if the setting is 'true' when accessed.
 Customized_files:
     Path: "web"
