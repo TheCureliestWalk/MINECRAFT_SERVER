@@ -533,6 +533,7 @@
       "minecraft:hoglin": "2025-06-02 12:45:18 +0700",
       "minecraft:shulker": "2025-06-07 23:26:27 +0700",
       "minecraft:cave_spider": "2025-05-28 22:52:05 +0700",
+      "minecraft:piglin": "2025-06-11 21:59:18 +0700",
       "minecraft:enderman": "2025-05-29 18:35:45 +0700",
       "minecraft:silverfish": "2025-06-07 22:43:44 +0700",
       "minecraft:magma_cube": "2025-06-01 01:21:22 +0700",
@@ -581,6 +582,7 @@
       "melon_slice": "2025-05-30 19:16:10 +0700",
       "beetroot": "2025-05-29 22:08:54 +0700",
       "apple": "2025-05-28 22:09:19 +0700",
+      "spider_eye": "2025-06-12 02:39:38 +0700",
       "cooked_chicken": "2025-05-28 22:12:00 +0700",
       "potato": "2025-05-31 19:31:59 +0700",
       "cooked_cod": "2025-05-29 00:21:01 +0700",
@@ -4988,6 +4990,72 @@
   "minecraft:recipes/redstone/acacia_fence_gate": {
     "criteria": {
       "has_planks": "2025-06-11 14:49:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2025-06-11 22:47:42 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-06-12 00:23:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2025-06-12 00:27:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2025-06-12 00:27:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_the_recipe": "2025-06-12 02:59:42 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-12 18:54:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-12 18:54:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-12 18:54:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-12 18:54:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-12 18:54:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-12 18:54:14 +0700"
     },
     "done": true
   },

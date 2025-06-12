@@ -520,7 +520,8 @@
       "minecraft:zombie": "2025-05-28 22:44:13 +0700",
       "minecraft:creeper": "2025-05-31 02:30:54 +0700",
       "minecraft:drowned": "2025-05-31 01:39:38 +0700",
-      "minecraft:zombie_villager": "2025-06-10 23:50:10 +0700"
+      "minecraft:zombie_villager": "2025-06-10 23:50:10 +0700",
+      "minecraft:slime": "2025-06-12 01:05:29 +0700"
     },
     "done": false
   },
@@ -4132,6 +4133,78 @@
   "minecraft:adventure/honey_block_slide": {
     "criteria": {
       "honey_block_slide": "2025-06-11 00:07:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_deepslate_iron_ore": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 22:43:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 23:10:07 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-06-11 23:54:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_deepslate_copper_ore": {
+    "criteria": {
+      "has_the_recipe": "2025-06-12 00:16:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-06-12 00:19:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-06-12 00:19:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-06-12 00:19:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2025-06-12 00:50:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2025-06-12 01:01:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-06-12 01:20:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-06-12 17:46:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-06-12 19:06:12 +0700"
     },
     "done": true
   },
