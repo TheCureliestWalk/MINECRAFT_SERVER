@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749707278459
-  login: 1749657270618
+  logout: 1749749930990
+  login: 1749749483733
 money: '1500'
 last-account-name: BemMeb
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: -50.60179383154354
-  y: 67.0
-  z: -419.8409594111776
-  yaw: -118.342041015625
-  pitch: 5.999992370605469
+  x: -40.22947215227531
+  y: 64.0
+  z: -408.40387976520543
+  yaw: 2.1058349609375
+  pitch: 1.6498969793319702
 lastlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world

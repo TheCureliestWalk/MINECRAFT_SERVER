@@ -31,6 +31,7 @@
       "minecraft:river": "2025-05-29 22:25:37 +0700",
       "minecraft:lukewarm_ocean": "2025-05-31 01:26:04 +0700",
       "minecraft:stony_shore": "2025-05-29 22:40:58 +0700",
+      "minecraft:dripstone_caves": "2025-06-12 22:43:50 +0700",
       "minecraft:frozen_peaks": "2025-06-08 03:03:44 +0700",
       "minecraft:old_growth_birch_forest": "2025-06-05 23:02:14 +0700",
       "minecraft:deep_dark": "2025-06-08 03:04:35 +0700",
@@ -286,7 +287,8 @@
       "minecraft:creeper": "2025-05-29 22:25:54 +0700",
       "minecraft:drowned": "2025-06-07 22:39:51 +0700",
       "minecraft:zombie_villager": "2025-06-08 14:59:44 +0700",
-      "minecraft:evoker": "2025-06-07 01:45:20 +0700"
+      "minecraft:evoker": "2025-06-07 01:45:20 +0700",
+      "minecraft:slime": "2025-06-12 22:43:36 +0700"
     },
     "done": false
   },
@@ -4564,6 +4566,42 @@
   "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-06-11 00:06:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2025-06-12 22:50:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-06-13 00:14:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-06-13 00:14:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-06-13 00:14:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-06-12 23:45:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2025-06-12 23:58:47 +0700"
     },
     "done": true
   },
