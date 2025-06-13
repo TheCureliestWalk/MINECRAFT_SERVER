@@ -4575,6 +4575,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-06-12 23:45:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2025-06-12 23:58:47 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2025-06-13 00:14:34 +0700"
@@ -4593,15 +4605,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/grindstone": {
+  "minecraft:recipes/redstone/sticky_piston": {
     "criteria": {
-      "has_stone_slab": "2025-06-12 23:45:43 +0700"
+      "has_slime_ball": "2025-06-13 22:44:03 +0700"
     },
     "done": true
   },
-  "minecraft:adventure/throw_trident": {
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
     "criteria": {
-      "shot_trident": "2025-06-12 23:58:47 +0700"
+      "has_cooked_rabbit": "2025-06-14 01:40:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-06-13 22:44:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-06-14 01:40:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-06-13 22:44:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2025-06-14 00:53:28 +0700"
     },
     "done": true
   },

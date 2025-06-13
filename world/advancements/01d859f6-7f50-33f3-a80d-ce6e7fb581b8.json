@@ -5091,6 +5091,18 @@
     },
     "done": true
   },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2025-06-13 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wolf_armor": {
+    "criteria": {
+      "has_armadillo_scute": "2025-06-13 13:42:16 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_carpet": {
     "criteria": {
       "has_magenta_wool": "2025-06-13 15:05:04 +0700"
@@ -5103,21 +5115,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/wolf_armor": {
-    "criteria": {
-      "has_armadillo_scute": "2025-06-13 13:42:16 +0700"
-    },
-    "done": true
-  },
-  "minecraft:adventure/summon_iron_golem": {
-    "criteria": {
-      "summoned_golem": "2025-06-13 00:48:14 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/magenta_bed": {
     "criteria": {
       "has_magenta_wool": "2025-06-13 15:05:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-06-13 22:43:25 +0700"
     },
     "done": true
   },

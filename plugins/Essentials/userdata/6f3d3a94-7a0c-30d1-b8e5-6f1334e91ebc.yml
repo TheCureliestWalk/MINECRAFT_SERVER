@@ -16,17 +16,17 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749752034284
-  login: 1749750902223
+  logout: 1749841482923
+  login: 1749826540794
 money: '0'
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 308.00601212895634
-  y: 80.0
-  z: -611.1019733109686
-  yaw: -1.349609375
-  pitch: 42.000038146972656
+  x: 349.2456803156855
+  y: 87.0
+  z: -754.9173105848618
+  yaw: -22.49945068359375
+  pitch: 15.149986267089844
 last-account-name: BigDickNoMercy
 lastlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
