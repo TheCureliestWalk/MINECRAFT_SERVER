@@ -1330,7 +1330,8 @@
       "minecraft:zombified_piglin": "2025-06-11 19:10:09 +0700",
       "minecraft:witch": "2025-06-02 10:43:22 +0700",
       "minecraft:spider": "2025-06-10 15:38:23 +0700",
-      "minecraft:zombie": "2025-06-10 15:22:25 +0700"
+      "minecraft:zombie": "2025-06-10 15:22:25 +0700",
+      "minecraft:zombie_villager": "2025-06-13 01:11:12 +0700"
     },
     "done": false
   },
@@ -2615,6 +2616,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2025-06-13 00:17:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2025-06-13 00:17:31 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dye_light_gray_bed": {
     "criteria": {
       "has_needed_dye": "2025-06-13 00:17:55 +0700"
@@ -2639,9 +2652,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/beehive": {
+  "minecraft:recipes/building_blocks/dye_light_gray_carpet": {
     "criteria": {
-      "has_honeycomb": "2025-06-13 00:17:31 +0700"
+      "has_needed_dye": "2025-06-13 00:17:55 +0700"
     },
     "done": true
   },
@@ -2651,15 +2664,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/honeycomb_block": {
+  "minecraft:recipes/combat/wolf_armor": {
     "criteria": {
-      "has_honeycomb": "2025-06-13 00:17:31 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_light_gray_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-06-13 00:17:55 +0700"
+      "has_armadillo_scute": "2025-06-13 01:07:00 +0700"
     },
     "done": true
   },

@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:cold_ocean": "2025-05-29 00:02:23 +0700",
       "minecraft:snowy_slopes": "2025-05-28 23:11:34 +0700",
+      "minecraft:old_growth_pine_taiga": "2025-06-13 20:38:37 +0700",
       "minecraft:forest": "2025-05-28 21:50:02 +0700",
       "minecraft:taiga": "2025-05-28 23:30:11 +0700",
       "minecraft:deep_ocean": "2025-05-30 21:43:00 +0700",
@@ -16,6 +17,7 @@
       "minecraft:deep_cold_ocean": "2025-05-29 00:11:46 +0700",
       "minecraft:frozen_ocean": "2025-05-31 19:27:39 +0700",
       "minecraft:desert": "2025-05-31 01:27:56 +0700",
+      "minecraft:frozen_river": "2025-06-13 20:35:26 +0700",
       "minecraft:deep_frozen_ocean": "2025-05-31 19:15:46 +0700",
       "minecraft:ocean": "2025-05-28 23:21:54 +0700",
       "minecraft:jungle": "2025-05-30 02:21:20 +0700",
@@ -5086,6 +5088,36 @@
   "minecraft:recipes/building_blocks/jack_o_lantern": {
     "criteria": {
       "has_carved_pumpkin": "2025-06-13 00:34:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_carpet": {
+    "criteria": {
+      "has_magenta_wool": "2025-06-13 15:05:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_banner": {
+    "criteria": {
+      "has_magenta_wool": "2025-06-13 15:05:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wolf_armor": {
+    "criteria": {
+      "has_armadillo_scute": "2025-06-13 13:42:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2025-06-13 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_bed": {
+    "criteria": {
+      "has_magenta_wool": "2025-06-13 15:05:04 +0700"
     },
     "done": true
   },
