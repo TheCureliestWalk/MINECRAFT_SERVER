@@ -28,7 +28,7 @@ Rewards:
     commands:
       - 'give %player% diamond 1'
       - 'economy give %player% 300'
-      - 'fp enchant %player% replenish 1 DIAMOND_HOE'
+      - 'fp enchant %player% replenish 3 DIAMOND_HOE'
     messages:
       - "%farmingplus_prefix%&aYou won 300$ and 1 diamond!"
     sound: "ENTITY_EXPERIENCE_ORB_PICKUP"

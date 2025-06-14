@@ -1,0 +1,17 @@
+invalid: false
+name: spear
+displayname: Spear
+lore: []
+id: 77
+craftingRequirements:
+- IRON_INGOT,0,15
+- REDSTONE,0,5
+price: 100
+material: CROSSBOW
+damage: 6
+durability: 1000
+MiscType: MELEE
+lastModifiedByQA: 1749914023999
+weaponsounds: bulletmedium
+maxItemStack: 1
+ThrowSpeed: 1.5

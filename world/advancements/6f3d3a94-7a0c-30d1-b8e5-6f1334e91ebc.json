@@ -1328,6 +1328,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-06-14 02:01:52 +0700",
+      "minecraft:phantom": "2025-06-14 21:59:11 +0700",
       "minecraft:zombified_piglin": "2025-06-11 19:10:09 +0700",
       "minecraft:witch": "2025-06-02 10:43:22 +0700",
       "minecraft:spider": "2025-06-10 15:38:23 +0700",
@@ -2800,6 +2801,24 @@
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2025-06-14 15:23:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-06-14 21:07:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-06-14 21:07:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2025-06-14 23:24:04 +0700"
     },
     "done": true
   },

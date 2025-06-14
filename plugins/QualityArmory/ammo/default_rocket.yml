@@ -1,0 +1,18 @@
+invalid: false
+name: rocket
+displayname: '&fRocket'
+lore: []
+id: 5
+craftingRequirements:
+- IRON_INGOT,0,4
+- GUNPOWDER,0,6
+- REDSTONE,0,1
+craftingReturnAmount: 1
+price: 100
+maxItemStack: 1
+material: PHANTOM_MEMBRANE
+piercingSeverity: 1000.0
+lastModifiedByQA: 1749914022316
+weaponsounds: bulletmedium
+damage: 3
+durability: 1000

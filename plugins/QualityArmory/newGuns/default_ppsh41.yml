@@ -1,0 +1,57 @@
+name: ppsh41
+displayname: '&6PPSh-41'
+id: 54
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,12
+- OAK_PLANKS,0,2
+- REDSTONE,0,5
+weapontype: RIFLE
+weaponsounds: bulletmedium
+enableIronSights: true
+ammotype: '762'
+damage: 3
+maxbullets: 71
+price: 7000
+weaponsounds_reloadingSound: reloadfn
+firerate: 3
+isAutomatic: true
+recoil: 2.0
+material: CROSSBOW
+invalid: false
+durability: 1000
+maxItemStack: 1
+setZoomLevel: 0
+sway:
+  defaultValue: 0.2
+  defaultMultiplier: 2
+  sneakModifier: true
+  moveModifier: true
+  runModifier: true
+  unscopedModifier: 1
+delayForReload: 1.5
+delayForShoot: 0.3
+bullets-per-shot: 1
+maxBulletDistance: 200
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+slownessOnEquip: 0
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 1
+  bullet_particleG: 1
+  bullet_particleB: 1
+  bullet_particleData: 0
+  bullet_particleMaterial: COAL_BLOCK
+Version_18_Support: false
+ChargingHandler: none
+ReloadingHandler: none
+addMuzzleSmoke: true
+drop-glow-color: none
+headshotMultiplier: 3.5
+weaponsounds_volume: 4
+firing_knockback: 0
+KilledByMessage: '%player% was shot by %killer% using a %name%'
+DestructableMaterials:
+- MATERIAL_NAME_HERE
+lastModifiedByQA: 1749914022920

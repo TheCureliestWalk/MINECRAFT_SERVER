@@ -1,0 +1,55 @@
+name: aa12
+displayname: '&6AA-12'
+id: 18
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,15
+- REDSTONE,0,5
+weapontype: SHOTGUN
+weaponsounds: bulletshotgun
+enableIronSights: false
+ammotype: shell
+damage: 2
+maxbullets: 32
+price: 4000
+material: CROSSBOW
+bullets-per-shot: 10
+maxBulletDistance: 80
+firerate: 2
+isAutomatic: true
+recoil: 7.0
+KilledByMessage: '%player% was shot to bits by %killer% using an %name%'
+invalid: false
+durability: 1000
+maxItemStack: 1
+setZoomLevel: 0
+sway:
+  defaultValue: 0.2
+  defaultMultiplier: 2
+  sneakModifier: true
+  moveModifier: true
+  runModifier: true
+  unscopedModifier: 1
+delayForReload: 1.5
+delayForShoot: 0.3
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+slownessOnEquip: 0
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 1
+  bullet_particleG: 1
+  bullet_particleB: 1
+  bullet_particleData: 0
+  bullet_particleMaterial: COAL_BLOCK
+Version_18_Support: false
+ChargingHandler: none
+ReloadingHandler: none
+addMuzzleSmoke: true
+drop-glow-color: none
+headshotMultiplier: 3.5
+weaponsounds_volume: 4
+firing_knockback: 0
+DestructableMaterials:
+- MATERIAL_NAME_HERE
+lastModifiedByQA: 1749923752708

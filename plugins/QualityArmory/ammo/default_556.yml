@@ -1,0 +1,18 @@
+invalid: false
+name: '556'
+displayname: '&f5.56 NATO'
+lore: []
+id: 2
+craftingRequirements:
+- IRON_INGOT,0,1
+- GUNPOWDER,0,1
+- REDSTONE,0,1
+craftingReturnAmount: 5
+price: 4
+maxItemStack: 50
+material: PHANTOM_MEMBRANE
+piercingSeverity: 1.0
+lastModifiedByQA: 1749914022304
+weaponsounds: bulletmedium
+damage: 3
+durability: 1000

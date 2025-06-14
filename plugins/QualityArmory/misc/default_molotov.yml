@@ -1,0 +1,22 @@
+invalid: false
+name: molotov
+displayname: '&7Molotov'
+lore:
+- '&8[LMB] to light'
+- '&8[RMB] to throw'
+- '&8Molotovs explode on contact'
+- '&4<!>Will Not Explode If Not Thrown<!>'
+id: 80
+craftingRequirements:
+- IRON_INGOT,0,6
+- GUNPOWDER,0,10
+price: 100
+material: CROSSBOW
+damage: 100
+durability: 1
+MiscType: MOLOTOV
+lastModifiedByQA: 1749914024007
+radius: 5
+weaponsounds: bulletmedium
+maxItemStack: 1
+ThrowSpeed: 1.5

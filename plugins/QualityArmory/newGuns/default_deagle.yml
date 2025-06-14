@@ -1,0 +1,56 @@
+name: deagle
+displayname: '&6Deagle'
+id: 78
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,15
+- REDSTONE,0,5
+weapontype: PISTOL
+weaponsounds: bulletdeagle
+enableIronSights: true
+ammotype: 9mm
+damage: 8
+maxbullets: 7
+price: 1800
+material: CROSSBOW
+ReloadingHandler: SlideReload
+KilledByMessage: '%player% was shot by %killer% using a %name%'
+invalid: false
+durability: 1000
+maxItemStack: 1
+setZoomLevel: 0
+sway:
+  defaultValue: 0.2
+  defaultMultiplier: 2
+  sneakModifier: true
+  moveModifier: true
+  runModifier: true
+  unscopedModifier: 1
+firerate: 1
+delayForReload: 1.5
+delayForShoot: 0.3
+bullets-per-shot: 1
+isAutomatic: false
+maxBulletDistance: 200
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+recoil: 1
+slownessOnEquip: 0
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 1
+  bullet_particleG: 1
+  bullet_particleB: 1
+  bullet_particleData: 0
+  bullet_particleMaterial: COAL_BLOCK
+Version_18_Support: false
+ChargingHandler: none
+addMuzzleSmoke: true
+drop-glow-color: none
+headshotMultiplier: 3.5
+weaponsounds_volume: 4
+weaponsounds_reloadingSound: reloadmagclick
+firing_knockback: 0
+DestructableMaterials:
+- MATERIAL_NAME_HERE
+lastModifiedByQA: 1749914023979

@@ -1,0 +1,20 @@
+invalid: false
+name: ammobag
+displayname: '&7Ammo Bag'
+lore:
+- §8[Left-Click] to unload
+- §8[Right-Click] to load
+id: 85
+craftingRequirements:
+- STRING,0,2
+- LEATHER,0,6
+price: 100
+material: CROSSBOW
+damage: 0
+durability: 1000
+MiscType: AMMO_BAG
+lastModifiedByQA: 1749914022392
+max: 6
+weaponsounds: bulletmedium
+maxItemStack: 1
+ThrowSpeed: 1.5

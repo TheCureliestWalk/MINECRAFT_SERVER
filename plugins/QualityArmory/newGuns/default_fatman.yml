@@ -1,0 +1,61 @@
+name: fatman
+displayname: '&6Fatman'
+id: 33
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,32
+- REDSTONE,0,16
+- BLAZE_POWDER,0,8
+weapontype: RPG
+weaponsounds: warheadlaunch
+enableIronSights: false
+ammotype: mininuke
+damage: 500
+maxbullets: 1
+price: 6000
+delayForShoot: 1.0
+CustomProjectiles:
+  projectileType: MiniNuke
+  explosionRadius: 10.0
+  Velocity: 3.0
+ReloadingHandler: SingleBulletReload
+maxBulletDistance: 500
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 0.3
+  bullet_particleG: 0.9
+  bullet_particleB: 0.3
+  bullet_particleMaterial: COAL_BLOCK
+  bullet_particleData: 0
+material: CROSSBOW
+recoil: 5.0
+KilledByMessage: '%player% was nuked by %killer% using a %name%'
+invalid: false
+durability: 1000
+maxItemStack: 1
+setZoomLevel: 0
+sway:
+  defaultValue: 0.2
+  defaultMultiplier: 2
+  sneakModifier: true
+  moveModifier: true
+  runModifier: true
+  unscopedModifier: 1
+firerate: 1
+delayForReload: 1.5
+bullets-per-shot: 1
+isAutomatic: false
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+slownessOnEquip: 0
+Version_18_Support: false
+ChargingHandler: none
+addMuzzleSmoke: true
+drop-glow-color: none
+headshotMultiplier: 3.5
+weaponsounds_volume: 4
+weaponsounds_reloadingSound: reloadbullet
+firing_knockback: 0
+DestructableMaterials:
+- MATERIAL_NAME_HERE
+lastModifiedByQA: 1749914022834

@@ -1,0 +1,19 @@
+invalid: false
+name: medkit
+displayname: Medkit
+lore: []
+id: 22
+craftingRequirements:
+- WHITE_WOOL,0,6
+- GOLDEN_APPLE,0,1
+price: 10000
+material: PHANTOM_MEMBRANE
+damage: 9
+durability: 1000
+MiscType: MEDKIT
+lastModifiedByQA: 1749914024013
+sound_equip: openbag
+sound_meleehit: openbag
+weaponsounds: bulletmedium
+maxItemStack: 1
+ThrowSpeed: 1.5

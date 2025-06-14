@@ -1,0 +1,20 @@
+invalid: false
+name: ushanka
+displayname: '&6Ushanka-Hat'
+lore: []
+id: 21
+craftingRequirements:
+- WHITE_WOOL,0,8
+price: 50
+MiscType: HELMET
+minProtectionHeight: 1.0
+maxProtectionHeight: 0.0
+stopsHeadshots: false
+lastModifiedByQA: 1749914022985
+material: PHANTOM_MEMBRANE
+weaponsounds: bulletmedium
+damage: 3
+durability: 1000
+maxItemStack: 1
+Version_18_Support: false
+protection: 1

@@ -1,0 +1,58 @@
+name: pulserifle
+displayname: '&6Overwatch Pulse Rifle'
+id: 44
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,12
+- GOLD_INGOT,0,2
+- REDSTONE,0,5
+weapontype: LAZER
+weaponsounds: bullethalolazer
+enableIronSights: true
+ammotype: fusion_cell
+damage: 4
+maxbullets: 30
+price: 5000
+firerate: 3
+isAutomatic: true
+bullets-per-shot: 1
+addMuzzleSmoke: false
+material: CROSSBOW
+lore:
+- '&fStardard Issue Rifles for Combie solders.'
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 0.5
+  bullet_particleG: 0.99
+  bullet_particleB: 0.99
+  bullet_particleMaterial: GOLD_BLOCK
+  bullet_particleData: 0
+recoil: 2.0
+invalid: false
+durability: 1000
+maxItemStack: 1
+setZoomLevel: 0
+sway:
+  defaultValue: 0.2
+  defaultMultiplier: 2
+  sneakModifier: true
+  moveModifier: true
+  runModifier: true
+  unscopedModifier: 1
+delayForReload: 1.5
+delayForShoot: 0.3
+maxBulletDistance: 200
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+slownessOnEquip: 0
+Version_18_Support: false
+ChargingHandler: none
+ReloadingHandler: none
+drop-glow-color: none
+headshotMultiplier: 3.5
+weaponsounds_volume: 4
+firing_knockback: 0
+KilledByMessage: '%player% was shot by %killer% using a %name%'
+DestructableMaterials:
+- MATERIAL_NAME_HERE
+lastModifiedByQA: 1749914022879

@@ -1,0 +1,61 @@
+name: m32a1
+displayname: '&6M32A1'
+id: 67
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,32
+- REDSTONE,0,16
+- BLAZE_POWDER,0,8
+weapontype: RPG
+weaponsounds: warheadlaunch
+enableIronSights: true
+ammotype: 40mm
+damage: 100
+maxbullets: 6
+price: 60000
+delayForShoot: 0.7
+CustomProjectiles:
+  projectileType: ExplodingRound
+  Velocity: 2.0
+  explosionRadius: 6.0
+ReloadingHandler: SingleBulletReload
+delayForReload: 5.0
+maxBulletDistance: 500
+material: CROSSBOW
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 0.001
+  bullet_particleG: 0.001
+  bullet_particleB: 0.001
+  bullet_particleMaterial: COAL_BLOCK
+  bullet_particleData: 0
+recoil: 8.0
+invalid: false
+durability: 1000
+maxItemStack: 1
+setZoomLevel: 0
+sway:
+  defaultValue: 0.2
+  defaultMultiplier: 2
+  sneakModifier: true
+  moveModifier: true
+  runModifier: true
+  unscopedModifier: 1
+firerate: 1
+bullets-per-shot: 1
+isAutomatic: false
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+slownessOnEquip: 0
+Version_18_Support: false
+ChargingHandler: none
+addMuzzleSmoke: true
+drop-glow-color: none
+headshotMultiplier: 3.5
+weaponsounds_volume: 4
+weaponsounds_reloadingSound: reloadbullet
+firing_knockback: 0
+KilledByMessage: '%player% was shot by %killer% using a %name%'
+DestructableMaterials:
+- MATERIAL_NAME_HERE
+lastModifiedByQA: 1749914023001
