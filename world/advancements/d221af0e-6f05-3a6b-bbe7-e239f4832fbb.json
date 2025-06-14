@@ -248,6 +248,7 @@
       "melon_slice": "2025-05-29 21:48:02 +0700",
       "beetroot": "2025-06-11 22:48:23 +0700",
       "apple": "2025-05-28 22:21:50 +0700",
+      "cooked_rabbit": "2025-06-14 02:20:15 +0700",
       "cooked_chicken": "2025-05-28 22:22:12 +0700",
       "potato": "2025-05-30 18:44:48 +0700",
       "carrot": "2025-05-29 21:25:49 +0700"
@@ -1091,6 +1092,7 @@
       "minecraft:pig": "2025-05-29 22:56:23 +0700",
       "minecraft:turtle": "2025-06-01 04:44:45 +0700",
       "minecraft:sheep": "2025-06-09 23:01:53 +0700",
+      "minecraft:rabbit": "2025-06-14 02:30:33 +0700",
       "minecraft:bee": "2025-06-07 02:25:25 +0700"
     },
     "done": false
@@ -4611,21 +4613,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
-    "criteria": {
-      "has_cooked_rabbit": "2025-06-14 01:40:04 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2025-06-13 22:44:03 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
-    "criteria": {
-      "has_cooked_rabbit": "2025-06-14 01:40:04 +0700"
     },
     "done": true
   },
@@ -4638,6 +4628,18 @@
   "minecraft:recipes/misc/slime_ball": {
     "criteria": {
       "has_slime_block": "2025-06-14 00:53:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-06-14 01:40:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-06-14 01:40:04 +0700"
     },
     "done": true
   },
