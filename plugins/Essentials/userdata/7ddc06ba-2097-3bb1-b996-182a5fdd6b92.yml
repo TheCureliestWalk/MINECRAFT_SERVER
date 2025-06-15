@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 100.127.251.128
+ip-address: 26.138.195.78
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1749923064940
+  lastteleport: 1749963871566
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749924351509
-  login: 1749924155928
+  logout: 1749967790291
+  login: 1749967513088
 money: '0'
 lastlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 427.12268234014243
-  y: 94.0
-  z: -536.4997943913513
-  yaw: 68.22802734375
-  pitch: 1.6499817371368408
+  x: 377.3383922212178
+  y: 78.9375
+  z: -695.2189872239186
+  yaw: -173.39993286132812
+  pitch: 17.400026321411133
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 377.78334233771136
-  y: 94.0
-  z: -656.6999999880791
-  yaw: 150.0032958984375
-  pitch: 9.149959564208984
+  x: 425.7198741609582
+  y: 72.0
+  z: -796.1111536770703
+  yaw: -37.20172119140625
+  pitch: -8.55007553100586
 last-account-name: IjoZyet
