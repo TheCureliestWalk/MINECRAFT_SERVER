@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 26.138.195.78
+ip-address: 100.127.251.128
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749923907622
-  login: 1749917583969
+  logout: 1749924351509
+  login: 1749924155928
 money: '0'
 lastlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
@@ -30,9 +30,9 @@ lastlocation:
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 365.49034656868537
+  x: 377.78334233771136
   y: 94.0
-  z: -553.1384758029897
-  yaw: 159.3031005859375
-  pitch: 5.549951553344727
+  z: -656.6999999880791
+  yaw: 150.0032958984375
+  pitch: 9.149959564208984
 last-account-name: IjoZyet
