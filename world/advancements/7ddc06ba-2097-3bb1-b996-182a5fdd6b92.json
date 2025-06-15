@@ -4239,5 +4239,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_the_recipe": "2025-06-15 15:25:48 +0700"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }
