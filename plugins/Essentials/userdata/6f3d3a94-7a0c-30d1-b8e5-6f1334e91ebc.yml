@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 10.154.1.200
+ip-address: 26.46.26.46
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1750092462211
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749918468448
-  login: 1749915892671
+  logout: 1750097986937
+  login: 1750094674260
 money: '0'
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 242.80211092659053
-  y: 71.5
-  z: -665.7579576917047
-  yaw: 135.45086669921875
-  pitch: 67.64983367919922
+  x: 205.4504722161078
+  y: 63.0
+  z: -693.8321878806162
+  yaw: -92.69890594482422
+  pitch: 30.299962997436523
 last-account-name: BigDickNoMercy
 lastlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: -2.9468795389807094
-  y: 65.79673560066871
-  z: -447.57441968292846
-  yaw: -177.6000518798828
-  pitch: 4.650002479553223
+  x: 417.16418174258445
+  y: 94.0
+  z: -515.3780185867282
+  yaw: 141.7650146484375
+  pitch: 17.049983978271484

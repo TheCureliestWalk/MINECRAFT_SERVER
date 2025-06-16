@@ -12,6 +12,7 @@
       "minecraft:forest": "2025-05-28 22:05:54 +0700",
       "minecraft:taiga": "2025-06-01 04:41:47 +0700",
       "minecraft:deep_ocean": "2025-05-31 02:45:06 +0700",
+      "minecraft:deep_cold_ocean": "2025-06-15 21:51:59 +0700",
       "minecraft:desert": "2025-05-31 01:28:18 +0700",
       "minecraft:ocean": "2025-05-31 01:23:38 +0700",
       "minecraft:jungle": "2025-05-31 01:28:02 +0700",
@@ -239,6 +240,7 @@
     "criteria": {
       "cooked_porkchop": "2025-05-31 20:20:29 +0700",
       "bread": "2025-06-07 21:58:53 +0700",
+      "rotten_flesh": "2025-06-16 23:17:31 +0700",
       "cooked_mutton": "2025-05-28 22:54:31 +0700",
       "sweet_berries": "2025-05-31 00:37:24 +0700",
       "dried_kelp": "2025-06-02 20:48:04 +0700",
@@ -4640,6 +4642,30 @@
   "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
     "criteria": {
       "has_cooked_rabbit": "2025-06-14 01:40:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_block": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2025-06-16 17:42:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_rod": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2025-06-16 17:42:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-06-16 23:20:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2025-06-16 23:32:47 +0700"
     },
     "done": true
   },

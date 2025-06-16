@@ -11,20 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1750095259323
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749956492192
-  login: 1749924245358
+  logout: 1750097996761
+  login: 1750091635048
 money: '300'
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 315.47795396676
+  x: 381.48022055392386
   y: 94.0
-  z: -626.5293079089511
-  yaw: 60.29999542236328
-  pitch: -7.650027275085449
+  z: -519.2989003359105
+  yaw: 93.14947509765625
+  pitch: 1.349982738494873
 last-account-name: Kcin404
+lastlocation:
+  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+  world-name: world
+  x: 439.30000001192093
+  y: 97.0
+  z: -489.95333508415956
+  yaw: 97.0042724609375
+  pitch: 10.049745559692383

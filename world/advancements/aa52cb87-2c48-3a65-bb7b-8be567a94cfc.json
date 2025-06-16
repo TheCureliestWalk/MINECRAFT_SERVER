@@ -12,26 +12,37 @@
       "minecraft:forest": "2025-05-28 22:23:08 +0700",
       "minecraft:taiga": "2025-06-08 00:58:05 +0700",
       "minecraft:deep_ocean": "2025-06-06 09:44:55 +0700",
+      "minecraft:lush_caves": "2025-06-15 22:44:48 +0700",
       "minecraft:deep_cold_ocean": "2025-06-10 22:11:38 +0700",
       "minecraft:frozen_ocean": "2025-06-10 22:12:18 +0700",
+      "minecraft:frozen_river": "2025-06-15 22:22:21 +0700",
       "minecraft:deep_frozen_ocean": "2025-06-10 22:12:09 +0700",
       "minecraft:ocean": "2025-05-29 15:53:31 +0700",
       "minecraft:jungle": "2025-06-03 03:47:33 +0700",
       "minecraft:sunflower_plains": "2025-05-28 23:26:13 +0700",
       "minecraft:cherry_grove": "2025-05-29 01:22:18 +0700",
       "minecraft:birch_forest": "2025-06-03 03:52:13 +0700",
+      "minecraft:windswept_hills": "2025-06-15 22:30:13 +0700",
       "minecraft:bamboo_jungle": "2025-06-03 03:33:28 +0700",
+      "minecraft:wooded_badlands": "2025-06-16 21:01:50 +0700",
+      "minecraft:warm_ocean": "2025-06-15 21:56:01 +0700",
+      "minecraft:deep_lukewarm_ocean": "2025-06-15 21:43:27 +0700",
+      "minecraft:badlands": "2025-06-16 18:55:15 +0700",
       "minecraft:flower_forest": "2025-05-29 01:02:17 +0700",
       "minecraft:beach": "2025-06-02 02:05:29 +0700",
+      "minecraft:stony_peaks": "2025-06-16 18:52:44 +0700",
       "minecraft:sparse_jungle": "2025-06-03 03:30:59 +0700",
       "minecraft:river": "2025-06-02 02:05:11 +0700",
       "minecraft:lukewarm_ocean": "2025-06-03 03:29:51 +0700",
       "minecraft:stony_shore": "2025-05-29 15:51:58 +0700",
+      "minecraft:snowy_plains": "2025-06-15 22:18:40 +0700",
       "minecraft:dripstone_caves": "2025-05-29 04:04:27 +0700",
       "minecraft:old_growth_birch_forest": "2025-06-06 02:31:13 +0700",
       "minecraft:deep_dark": "2025-06-10 23:27:18 +0700",
       "minecraft:grove": "2025-05-28 23:11:18 +0700",
+      "minecraft:swamp": "2025-06-15 22:31:16 +0700",
       "minecraft:meadow": "2025-05-29 01:25:29 +0700",
+      "minecraft:savanna": "2025-06-15 22:03:00 +0700",
       "minecraft:plains": "2025-05-28 23:12:52 +0700",
       "minecraft:jagged_peaks": "2025-05-28 23:11:40 +0700"
     },
@@ -49,6 +60,7 @@
       "bread": "2025-05-28 23:27:18 +0700",
       "rotten_flesh": "2025-05-28 23:09:01 +0700",
       "cooked_mutton": "2025-05-29 01:37:47 +0700",
+      "sweet_berries": "2025-06-15 23:27:58 +0700",
       "cooked_beef": "2025-05-28 23:12:49 +0700",
       "chorus_fruit": "2025-06-07 23:39:57 +0700",
       "baked_potato": "2025-05-30 09:26:48 +0700",
@@ -311,6 +323,7 @@
       "minecraft:vindicator": "2025-06-07 16:44:57 +0700",
       "minecraft:enderman": "2025-06-07 22:37:07 +0700",
       "minecraft:silverfish": "2025-06-08 00:52:48 +0700",
+      "minecraft:stray": "2025-06-15 22:22:51 +0700",
       "minecraft:magma_cube": "2025-06-01 01:22:32 +0700",
       "minecraft:spider": "2025-05-28 22:26:52 +0700",
       "minecraft:vex": "2025-06-07 16:48:08 +0700",
@@ -1140,6 +1153,7 @@
       "minecraft:chicken": "2025-05-29 15:31:13 +0700",
       "minecraft:pig": "2025-05-29 23:02:52 +0700",
       "minecraft:wolf": "2025-06-03 03:53:56 +0700",
+      "minecraft:panda": "2025-06-16 00:12:38 +0700",
       "minecraft:turtle": "2025-06-04 22:41:12 +0700",
       "minecraft:sheep": "2025-05-29 04:55:46 +0700",
       "minecraft:axolotl": "2025-06-06 09:54:42 +0700"
@@ -1605,7 +1619,8 @@
   "minecraft:husbandry/whole_pack": {
     "criteria": {
       "minecraft:rusty": "2025-06-03 03:44:31 +0700",
-      "minecraft:woods": "2025-05-29 16:11:48 +0700"
+      "minecraft:woods": "2025-05-29 16:11:48 +0700",
+      "minecraft:black": "2025-06-15 23:01:35 +0700"
     },
     "done": false
   },
@@ -3754,6 +3769,174 @@
   "minecraft:recipes/combat/wolf_armor": {
     "criteria": {
       "has_armadillo_scute": "2025-06-13 03:34:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-06-15 21:13:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2025-06-15 21:56:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-06-15 22:40:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-06-15 22:40:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-06-15 23:09:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-16 19:01:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-06-16 19:01:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2025-06-16 19:05:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_turtle_scute": "2025-06-16 19:42:18 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2025-06-16 21:18:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2025-06-16 22:52:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2025-06-16 23:58:28 +0700"
     },
     "done": true
   },

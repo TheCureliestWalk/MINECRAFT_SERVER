@@ -65,11 +65,13 @@
       "chorus_fruit": "2025-06-07 23:39:28 +0700",
       "baked_potato": "2025-05-31 03:42:51 +0700",
       "porkchop": "2025-06-12 02:19:11 +0700",
+      "beetroot": "2025-06-16 05:01:23 +0700",
       "apple": "2025-06-07 05:38:22 +0700",
       "cooked_rabbit": "2025-05-30 04:58:11 +0700",
       "cooked_chicken": "2025-05-29 21:49:18 +0700",
       "potato": "2025-06-11 00:01:15 +0700",
       "rabbit": "2025-05-31 01:54:40 +0700",
+      "cooked_cod": "2025-06-16 08:34:34 +0700",
       "carrot": "2025-05-29 21:29:16 +0700"
     },
     "done": false
@@ -1300,6 +1302,7 @@
       "minecraft:phantom": "2025-06-05 00:10:48 +0700",
       "minecraft:zombified_piglin": "2025-06-04 05:40:39 +0700",
       "minecraft:witch": "2025-06-07 20:55:03 +0700",
+      "minecraft:wither_skeleton": "2025-06-16 08:29:45 +0700",
       "minecraft:husk": "2025-05-30 04:29:39 +0700",
       "minecraft:hoglin": "2025-06-07 08:22:46 +0700",
       "minecraft:shulker": "2025-06-08 00:06:33 +0700",
@@ -4682,6 +4685,138 @@
   "minecraft:adventure/avoid_vibration": {
     "criteria": {
       "avoid_vibration": "2025-06-13 07:04:57 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2025-06-16 04:22:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2025-06-16 04:22:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2025-06-16 04:22:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2025-06-16 04:22:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2025-06-16 04:22:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_lime_dye": "2025-06-16 06:15:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-06-16 06:15:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lime_bundle": {
+    "criteria": {
+      "has_lime_dye": "2025-06-16 06:15:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_candle": {
+    "criteria": {
+      "has_lime_dye": "2025-06-16 06:15:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-16 06:15:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-16 06:15:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2025-06-16 07:41:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-06-16 08:25:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-16 08:25:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-16 08:25:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-16 08:25:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-16 08:25:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-16 08:25:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-16 08:25:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-16 08:25:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-16 08:25:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-16 08:25:51 +0700"
     },
     "done": true
   },
