@@ -49,10 +49,12 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-06-18 19:14:27 +0700",
       "mutton": "2025-06-16 01:03:20 +0700",
       "apple": "2025-06-17 18:26:26 +0700",
       "bread": "2025-06-15 23:07:45 +0700",
       "cooked_rabbit": "2025-06-17 18:07:21 +0700",
+      "cooked_chicken": "2025-06-18 19:26:44 +0700",
       "cooked_mutton": "2025-06-02 01:49:55 +0700",
       "glow_berries": "2025-06-12 01:24:57 +0700",
       "cooked_beef": "2025-06-10 21:22:54 +0700",
@@ -1353,12 +1355,13 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-06-16 15:14:22 +0700",
-      "minecraft:cave_spider": "2025-06-17 19:01:18 +0700",
+      "minecraft:blaze": "2025-06-18 19:15:32 +0700",
       "minecraft:skeleton": "2025-06-14 02:01:52 +0700",
       "minecraft:phantom": "2025-06-14 21:59:11 +0700",
       "minecraft:zombified_piglin": "2025-06-11 19:10:09 +0700",
-      "minecraft:silverfish": "2025-06-17 18:08:58 +0700",
       "minecraft:witch": "2025-06-02 10:43:22 +0700",
+      "minecraft:cave_spider": "2025-06-17 19:01:18 +0700",
+      "minecraft:silverfish": "2025-06-17 18:08:58 +0700",
       "minecraft:spider": "2025-06-10 15:38:23 +0700",
       "minecraft:zombie": "2025-06-10 15:22:25 +0700",
       "minecraft:creeper": "2025-06-15 22:09:50 +0700",
@@ -3740,6 +3743,84 @@
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2025-06-18 00:55:49 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-06-18 18:27:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-18 18:27:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-18 18:27:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-06-18 18:27:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-18 18:27:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-18 18:27:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-06-18 18:27:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-18 18:27:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-18 18:27:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-06-18 18:27:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-06-18 19:15:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-06-18 19:15:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-06-18 19:15:32 +0700"
     },
     "done": true
   },
