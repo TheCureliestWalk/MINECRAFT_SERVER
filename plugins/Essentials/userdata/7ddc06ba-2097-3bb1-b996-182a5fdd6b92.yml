@@ -11,28 +11,45 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1750097562842
+  lastteleport: 1750185260556
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1750097996750
-  login: 1750085337202
+  logout: 1750185287711
+  login: 1750179375504
 money: '0'
 lastlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 642.6558816728142
-  y: 122.32006071612187
-  z: -571.9519898688346
-  yaw: 51.8975830078125
-  pitch: 11.85010051727295
+  x: 381.87268030285344
+  y: 94.0
+  z: -403.2249962718462
+  yaw: 131.24879455566406
+  pitch: 4.55032205581665
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 399996.5206074807
-  y: 122.0
-  z: 400006.3595791483
-  yaw: -170.4023895263672
-  pitch: 4.50010871887207
+  x: 216.13051092890208
+  y: 65.5
+  z: -689.3543250654931
+  yaw: -77.54998779296875
+  pitch: 27.300025939941406
 last-account-name: IjoZyet
+homes:
+  castle:
+    world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+    world-name: world
+    x: 518.5
+    y: 116.0
+    z: -558.5
+    yaw: 46.05157470703125
+    pitch: 7.049939155578613
+  sadsadaa:
+    world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+    world-name: world
+    x: 344.5
+    y: 94.5625
+    z: -491.5
+    yaw: -84.5999984741211
+    pitch: -3.900000810623169
