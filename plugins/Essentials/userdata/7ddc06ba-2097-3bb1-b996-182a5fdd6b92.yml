@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 100.127.251.128
+ip-address: 26.138.195.78
 afk: false
 socialspy: false
 npc: false
@@ -16,25 +16,25 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1750185287711
-  login: 1750179375504
+  logout: 1750230833595
+  login: 1750230630488
 money: '0'
 lastlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 381.87268030285344
-  y: 94.0
-  z: -403.2249962718462
-  yaw: 131.24879455566406
-  pitch: 4.55032205581665
+  x: 326.18572695906545
+  y: 95.5
+  z: -476.2548050503058
+  yaw: 179.2517547607422
+  pitch: 10.399857521057129
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 216.13051092890208
-  y: 65.5
-  z: -689.3543250654931
-  yaw: -77.54998779296875
-  pitch: 27.300025939941406
+  x: 283.062865902675
+  y: 94.0
+  z: -604.880478063168
+  yaw: -107.3961181640625
+  pitch: 30.900028228759766
 last-account-name: IjoZyet
 homes:
   castle:
