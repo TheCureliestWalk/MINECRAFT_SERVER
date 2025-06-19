@@ -15,6 +15,8 @@
       "minecraft:lush_caves": "2025-06-15 22:44:48 +0700",
       "minecraft:deep_cold_ocean": "2025-06-10 22:11:38 +0700",
       "minecraft:frozen_ocean": "2025-06-10 22:12:18 +0700",
+      "minecraft:eroded_badlands": "2025-06-19 18:27:31 +0700",
+      "minecraft:desert": "2025-06-19 18:27:20 +0700",
       "minecraft:frozen_river": "2025-06-15 22:22:21 +0700",
       "minecraft:deep_frozen_ocean": "2025-06-10 22:12:09 +0700",
       "minecraft:ocean": "2025-05-29 15:53:31 +0700",
@@ -25,18 +27,21 @@
       "minecraft:windswept_hills": "2025-06-15 22:30:13 +0700",
       "minecraft:bamboo_jungle": "2025-06-03 03:33:28 +0700",
       "minecraft:wooded_badlands": "2025-06-16 21:01:50 +0700",
+      "minecraft:windswept_savanna": "2025-06-19 20:26:50 +0700",
       "minecraft:warm_ocean": "2025-06-15 21:56:01 +0700",
       "minecraft:deep_lukewarm_ocean": "2025-06-15 21:43:27 +0700",
       "minecraft:badlands": "2025-06-16 18:55:15 +0700",
       "minecraft:flower_forest": "2025-05-29 01:02:17 +0700",
       "minecraft:beach": "2025-06-02 02:05:29 +0700",
       "minecraft:stony_peaks": "2025-06-16 18:52:44 +0700",
+      "minecraft:mangrove_swamp": "2025-06-19 19:23:04 +0700",
       "minecraft:sparse_jungle": "2025-06-03 03:30:59 +0700",
       "minecraft:river": "2025-06-02 02:05:11 +0700",
       "minecraft:lukewarm_ocean": "2025-06-03 03:29:51 +0700",
       "minecraft:stony_shore": "2025-05-29 15:51:58 +0700",
       "minecraft:snowy_plains": "2025-06-15 22:18:40 +0700",
       "minecraft:dripstone_caves": "2025-05-29 04:04:27 +0700",
+      "minecraft:frozen_peaks": "2025-06-19 17:57:46 +0700",
       "minecraft:old_growth_birch_forest": "2025-06-06 02:31:13 +0700",
       "minecraft:deep_dark": "2025-06-10 23:27:18 +0700",
       "minecraft:grove": "2025-05-28 23:11:18 +0700",
@@ -312,27 +317,28 @@
       "minecraft:pillager": "2025-05-28 23:13:17 +0700",
       "minecraft:blaze": "2025-06-01 01:26:09 +0700",
       "minecraft:skeleton": "2025-05-28 23:28:48 +0700",
+      "minecraft:ravager": "2025-06-07 16:46:06 +0700",
+      "minecraft:hoglin": "2025-06-01 01:08:53 +0700",
+      "minecraft:vindicator": "2025-06-07 16:44:57 +0700",
+      "minecraft:magma_cube": "2025-06-01 01:22:32 +0700",
+      "minecraft:spider": "2025-05-28 22:26:52 +0700",
+      "minecraft:creeper": "2025-05-28 22:26:07 +0700",
+      "minecraft:evoker": "2025-06-07 16:48:08 +0700",
+      "minecraft:slime": "2025-06-18 20:03:05 +0700",
       "minecraft:phantom": "2025-05-30 16:17:49 +0700",
       "minecraft:zombified_piglin": "2025-06-06 01:45:53 +0700",
       "minecraft:witch": "2025-06-07 16:46:49 +0700",
       "minecraft:wither_skeleton": "2025-06-01 01:27:47 +0700",
-      "minecraft:ravager": "2025-06-07 16:46:06 +0700",
-      "minecraft:hoglin": "2025-06-01 01:08:53 +0700",
+      "minecraft:husk": "2025-06-19 18:34:18 +0700",
       "minecraft:shulker": "2025-06-07 23:35:20 +0700",
       "minecraft:cave_spider": "2025-05-28 22:58:19 +0700",
-      "minecraft:vindicator": "2025-06-07 16:44:57 +0700",
       "minecraft:enderman": "2025-06-07 22:37:07 +0700",
       "minecraft:silverfish": "2025-06-08 00:52:48 +0700",
       "minecraft:stray": "2025-06-15 22:22:51 +0700",
-      "minecraft:magma_cube": "2025-06-01 01:22:32 +0700",
-      "minecraft:spider": "2025-05-28 22:26:52 +0700",
       "minecraft:vex": "2025-06-07 16:48:08 +0700",
       "minecraft:zombie": "2025-05-28 22:26:17 +0700",
-      "minecraft:creeper": "2025-05-28 22:26:07 +0700",
       "minecraft:drowned": "2025-06-03 03:23:06 +0700",
-      "minecraft:zombie_villager": "2025-05-28 23:30:38 +0700",
-      "minecraft:evoker": "2025-06-07 16:48:08 +0700",
-      "minecraft:slime": "2025-06-18 20:03:05 +0700"
+      "minecraft:zombie_villager": "2025-05-28 23:30:38 +0700"
     },
     "done": false
   },
@@ -1151,6 +1157,7 @@
       "minecraft:cat": "2025-06-05 09:48:39 +0700",
       "minecraft:cow": "2025-05-29 00:55:28 +0700",
       "minecraft:goat": "2025-05-30 16:34:17 +0700",
+      "minecraft:camel": "2025-06-19 20:52:43 +0700",
       "minecraft:chicken": "2025-05-29 15:31:13 +0700",
       "minecraft:pig": "2025-05-29 23:02:52 +0700",
       "minecraft:wolf": "2025-06-03 03:53:56 +0700",
@@ -4175,6 +4182,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2025-06-19 14:37:35 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
     "criteria": {
       "has_end_stone_brick": "2025-06-19 14:40:34 +0700"
@@ -4199,12 +4212,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_item_frame": "2025-06-19 14:37:35 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
     "criteria": {
       "has_end_stone_bricks": "2025-06-19 14:40:34 +0700"
@@ -4214,6 +4221,176 @@
   "minecraft:recipes/decorations/end_stone_brick_wall": {
     "criteria": {
       "has_end_stone_bricks": "2025-06-19 14:40:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_mangrove_wood": {
+    "criteria": {
+      "has_log": "2025-06-19 19:59:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2025-06-19 20:44:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-06-19 20:44:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-19 19:52:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/leash_all_frog_variants": {
+    "criteria": {
+      "minecraft:warm": "2025-06-19 19:26:29 +0700",
+      "minecraft:temperate": "2025-06-19 21:14:01 +0700",
+      "minecraft:cold": "2025-06-19 21:14:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_fence": {
+    "criteria": {
+      "has_planks": "2025-06-19 19:52:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-19 20:44:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-19 20:44:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-06-19 20:44:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-19 20:44:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-19 19:52:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-19 19:52:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-19 20:44:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-06-19 20:44:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-19 20:44:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-19 19:52:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2025-06-19 19:28:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_sign": {
+    "criteria": {
+      "has_planks": "2025-06-19 19:52:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_button": {
+    "criteria": {
+      "has_planks": "2025-06-19 19:52:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_door": {
+    "criteria": {
+      "has_planks": "2025-06-19 19:52:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-06-19 19:59:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-19 20:44:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2025-06-19 19:23:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2025-06-19 20:45:36 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-06-19 20:44:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2025-06-19 20:34:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2025-06-19 20:45:36 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_slab": {
+    "criteria": {
+      "has_planks": "2025-06-19 19:52:15 +0700"
     },
     "done": true
   },

@@ -1196,6 +1196,7 @@
       "minecraft:pig": "2025-05-30 16:34:13 +0700",
       "minecraft:wolf": "2025-06-09 01:51:36 +0700",
       "minecraft:panda": "2025-06-09 00:07:45 +0700",
+      "minecraft:frog": "2025-06-19 20:56:31 +0700",
       "minecraft:sheep": "2025-05-29 00:37:32 +0700",
       "minecraft:bee": "2025-06-07 18:14:38 +0700"
     },
@@ -4681,6 +4682,20 @@
   "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_stonecutting": {
     "criteria": {
       "has_oxidized_copper": "2025-06-18 23:58:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/leash_all_frog_variants": {
+    "criteria": {
+      "minecraft:warm": "2025-06-19 20:22:13 +0700",
+      "minecraft:temperate": "2025-06-19 20:52:10 +0700",
+      "minecraft:cold": "2025-06-19 21:00:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tadpole_in_a_bucket": {
+    "criteria": {
+      "tadpole_bucket": "2025-06-19 21:11:02 +0700"
     },
     "done": true
   },
