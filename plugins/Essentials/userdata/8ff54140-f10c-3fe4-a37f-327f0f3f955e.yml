@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.188.106.164
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1750260797056
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750282782177
+  login: 1750260787217
+money: '0'
+last-account-name: POHOI
+logoutlocation:
+  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+  world-name: world
+  x: 442.1812688342466
+  y: 94.0
+  z: -495.69999998807907
+  yaw: -177.30628967285156
+  pitch: 20.99993133544922
+lastlocation:
+  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+  world-name: world
+  x: -78.30000001192093
+  y: 82.0
+  z: -133.23087853189247
+  yaw: 177.934814453125
+  pitch: 26.849973678588867

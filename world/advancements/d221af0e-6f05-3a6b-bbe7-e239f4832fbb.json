@@ -9,11 +9,15 @@
     "criteria": {
       "minecraft:cold_ocean": "2025-06-01 04:40:54 +0700",
       "minecraft:snowy_slopes": "2025-05-29 21:14:14 +0700",
+      "minecraft:mushroom_fields": "2025-06-19 00:02:37 +0700",
       "minecraft:forest": "2025-05-28 22:05:54 +0700",
       "minecraft:taiga": "2025-06-01 04:41:47 +0700",
       "minecraft:deep_ocean": "2025-05-31 02:45:06 +0700",
+      "minecraft:lush_caves": "2025-06-18 21:58:20 +0700",
       "minecraft:deep_cold_ocean": "2025-06-15 21:51:59 +0700",
+      "minecraft:frozen_ocean": "2025-06-18 21:56:23 +0700",
       "minecraft:desert": "2025-05-31 01:28:18 +0700",
+      "minecraft:deep_frozen_ocean": "2025-06-18 21:55:21 +0700",
       "minecraft:ocean": "2025-05-31 01:23:38 +0700",
       "minecraft:jungle": "2025-05-31 01:28:02 +0700",
       "minecraft:sunflower_plains": "2025-05-29 21:39:25 +0700",
@@ -33,6 +37,7 @@
       "minecraft:lukewarm_ocean": "2025-05-31 01:26:04 +0700",
       "minecraft:stony_shore": "2025-05-29 22:40:58 +0700",
       "minecraft:dripstone_caves": "2025-06-12 22:43:50 +0700",
+      "minecraft:snowy_taiga": "2025-06-18 21:57:54 +0700",
       "minecraft:frozen_peaks": "2025-06-08 03:03:44 +0700",
       "minecraft:old_growth_birch_forest": "2025-06-05 23:02:14 +0700",
       "minecraft:deep_dark": "2025-06-08 03:04:35 +0700",
@@ -253,6 +258,7 @@
       "cooked_rabbit": "2025-06-14 02:20:15 +0700",
       "cooked_chicken": "2025-05-28 22:22:12 +0700",
       "potato": "2025-05-30 18:44:48 +0700",
+      "cooked_cod": "2025-06-18 21:33:58 +0700",
       "carrot": "2025-05-29 21:25:49 +0700"
     },
     "done": false
@@ -1809,9 +1815,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:crimson_forest": "2025-06-01 00:56:39 +0700"
+      "minecraft:crimson_forest": "2025-06-01 00:56:39 +0700",
+      "minecraft:nether_wastes": "2025-06-18 22:04:03 +0700",
+      "minecraft:soul_sand_valley": "2025-06-18 22:00:21 +0700",
+      "minecraft:basalt_deltas": "2025-06-18 22:04:48 +0700",
+      "minecraft:warped_forest": "2025-06-18 22:03:45 +0700"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {

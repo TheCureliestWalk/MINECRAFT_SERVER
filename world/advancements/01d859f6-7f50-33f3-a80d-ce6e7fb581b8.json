@@ -569,26 +569,27 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-05-29 20:19:47 +0700",
-      "mutton": "2025-05-28 23:22:14 +0700",
       "chicken": "2025-06-07 22:02:23 +0700",
-      "bread": "2025-05-28 23:40:24 +0700",
       "honey_bottle": "2025-06-01 04:59:35 +0700",
-      "rotten_flesh": "2025-05-28 22:52:38 +0700",
-      "suspicious_stew": "2025-05-30 21:35:45 +0700",
       "cooked_mutton": "2025-05-28 22:25:15 +0700",
-      "glow_berries": "2025-05-28 22:58:25 +0700",
       "sweet_berries": "2025-05-30 05:06:04 +0700",
-      "dried_kelp": "2025-05-30 00:01:07 +0700",
-      "salmon": "2025-06-17 02:54:54 +0700",
       "cooked_beef": "2025-05-29 15:06:39 +0700",
       "baked_potato": "2025-06-05 02:41:49 +0700",
-      "melon_slice": "2025-05-30 19:16:10 +0700",
-      "beetroot": "2025-05-29 22:08:54 +0700",
       "apple": "2025-05-28 22:09:19 +0700",
       "spider_eye": "2025-06-12 02:39:38 +0700",
-      "cooked_chicken": "2025-05-28 22:12:00 +0700",
       "potato": "2025-05-31 19:31:59 +0700",
       "cooked_cod": "2025-05-29 00:21:01 +0700",
+      "mutton": "2025-05-28 23:22:14 +0700",
+      "bread": "2025-05-28 23:40:24 +0700",
+      "rotten_flesh": "2025-05-28 22:52:38 +0700",
+      "suspicious_stew": "2025-05-30 21:35:45 +0700",
+      "glow_berries": "2025-05-28 22:58:25 +0700",
+      "dried_kelp": "2025-05-30 00:01:07 +0700",
+      "salmon": "2025-06-17 02:54:54 +0700",
+      "melon_slice": "2025-05-30 19:16:10 +0700",
+      "beetroot": "2025-05-29 22:08:54 +0700",
+      "cooked_rabbit": "2025-06-18 22:54:32 +0700",
+      "cooked_chicken": "2025-05-28 22:12:00 +0700",
       "cod": "2025-05-30 21:39:46 +0700",
       "cooked_salmon": "2025-05-31 07:03:11 +0700",
       "carrot": "2025-05-29 22:14:08 +0700"
@@ -5212,12 +5213,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_copper_bulb_from_honeycomb": {
-    "criteria": {
-      "has_copper_bulb": "2025-06-18 19:19:59 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_oxidized_copper_from_honeycomb": {
     "criteria": {
       "has_oxidized_copper": "2025-06-18 19:17:33 +0700"
@@ -5257,6 +5252,18 @@
   "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_stonecutting": {
     "criteria": {
       "has_oxidized_copper": "2025-06-18 19:17:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_bulb_from_honeycomb": {
+    "criteria": {
+      "has_copper_bulb": "2025-06-18 19:19:59 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lighten_up": {
+    "criteria": {
+      "lighten_up": "2025-06-18 21:39:25 +0700"
     },
     "done": true
   },
