@@ -3930,5 +3930,239 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/magenta_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/gray_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/black_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/yellow_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/pink_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/orange_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/light_blue_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/cyan_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/red_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/brown_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/green_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/purple_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/white_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/lime_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/blue_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/light_gray_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-06-20 01:05:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/place_dried_ghast_in_water": {
+    "criteria": {
+      "place_dried_ghast_in_water": "2025-06-20 01:05:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/magenta_bundle": {
+    "criteria": {
+      "has_magenta_dye": "2025-06-20 01:05:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_magenta_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 01:05:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 01:05:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_magenta_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 01:05:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_magenta_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 01:05:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_candle": {
+    "criteria": {
+      "has_magenta_dye": "2025-06-20 01:05:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_carpet": {
+    "criteria": {
+      "has_magenta_wool": "2025-06-20 01:06:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_banner": {
+    "criteria": {
+      "has_magenta_wool": "2025-06-20 01:06:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_bed": {
+    "criteria": {
+      "has_magenta_wool": "2025-06-20 01:06:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/saddle": {
+    "criteria": {
+      "has_leather": "2025-06-20 01:06:56 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 01:08:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 01:08:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2025-06-20 01:08:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 01:08:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/yellow_bundle": {
+    "criteria": {
+      "has_yellow_dye": "2025-06-20 01:08:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_yellow_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 01:08:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-06-20 01:59:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-06-20 01:59:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-06-20 01:59:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_string": "2025-06-20 01:31:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-20 01:28:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-06-20 01:34:42 +0700"
+    },
+    "done": true
+  },
   "DataVersion": 4435
 }

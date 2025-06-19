@@ -2281,6 +2281,7 @@
       "minecraft:cow": "2025-05-29 19:38:55 +0700",
       "minecraft:chicken": "2025-05-30 00:50:42 +0700",
       "minecraft:pig": "2025-05-29 20:12:48 +0700",
+      "minecraft:llama": "2025-06-20 00:47:55 +0700",
       "minecraft:panda": "2025-06-08 18:44:56 +0700",
       "minecraft:turtle": "2025-05-31 05:54:14 +0700",
       "minecraft:sheep": "2025-05-29 19:38:56 +0700",
@@ -5210,6 +5211,36 @@
   "minecraft:adventure/lighten_up": {
     "criteria": {
       "lighten_up": "2025-06-18 21:39:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_brown_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 00:44:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_brown_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 00:44:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_brown_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 00:44:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_string": "2025-06-20 00:39:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-20 00:42:43 +0700"
     },
     "done": true
   },
