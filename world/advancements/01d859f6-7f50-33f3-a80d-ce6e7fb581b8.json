@@ -5214,6 +5214,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_string": "2025-06-20 00:39:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-20 00:42:43 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/dye_brown_bed": {
     "criteria": {
       "has_needed_dye": "2025-06-20 00:44:43 +0700"
@@ -5229,18 +5241,6 @@
   "minecraft:recipes/combat/dye_brown_harness": {
     "criteria": {
       "has_needed_dye": "2025-06-20 00:44:43 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/lead": {
-    "criteria": {
-      "has_string": "2025-06-20 00:39:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/lodestone": {
-    "criteria": {
-      "has_iron_ingot": "2025-06-20 00:42:43 +0700"
     },
     "done": true
   },
