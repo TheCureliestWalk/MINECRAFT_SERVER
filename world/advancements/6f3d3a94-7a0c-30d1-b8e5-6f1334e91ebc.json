@@ -70,7 +70,8 @@
       "apple": "2025-06-17 18:26:26 +0700",
       "cooked_rabbit": "2025-06-17 18:07:21 +0700",
       "cooked_chicken": "2025-06-18 19:26:44 +0700",
-      "rabbit": "2025-06-19 18:35:23 +0700"
+      "rabbit": "2025-06-19 18:35:23 +0700",
+      "cooked_salmon": "2025-06-20 18:59:40 +0700"
     },
     "done": false
   },
@@ -2073,6 +2074,7 @@
     "criteria": {
       "minecraft:cow": "2025-06-10 20:32:39 +0700",
       "minecraft:pig": "2025-06-15 20:59:40 +0700",
+      "minecraft:wolf": "2025-06-20 19:55:04 +0700",
       "minecraft:panda": "2025-06-11 22:53:52 +0700",
       "minecraft:sheep": "2025-06-10 17:22:16 +0700",
       "minecraft:axolotl": "2025-06-17 02:41:01 +0700"
@@ -2634,6 +2636,7 @@
   "minecraft:husbandry/whole_pack": {
     "criteria": {
       "minecraft:woods": "2025-06-12 22:42:16 +0700",
+      "minecraft:pale": "2025-06-20 19:36:14 +0700",
       "minecraft:black": "2025-06-15 23:01:01 +0700"
     },
     "done": false
@@ -4161,6 +4164,72 @@
   "minecraft:recipes/building_blocks/melon": {
     "criteria": {
       "has_melon": "2025-06-20 01:59:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_cactus_flower": {
+    "criteria": {
+      "has_cactus_flower": "2025-06-20 19:15:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_black_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 19:49:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 19:49:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 19:49:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 19:51:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 19:51:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2025-06-20 19:51:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2025-06-20 19:51:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/blue_bundle": {
+    "criteria": {
+      "has_blue_dye": "2025-06-20 19:51:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 19:51:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_blue_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-06-20 19:51:03 +0700"
     },
     "done": true
   },

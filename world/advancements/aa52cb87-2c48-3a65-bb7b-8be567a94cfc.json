@@ -1624,6 +1624,7 @@
     "criteria": {
       "minecraft:rusty": "2025-06-03 03:44:31 +0700",
       "minecraft:woods": "2025-05-29 16:11:48 +0700",
+      "minecraft:pale": "2025-06-20 21:51:57 +0700",
       "minecraft:black": "2025-06-15 23:01:35 +0700"
     },
     "done": false
@@ -4513,9 +4514,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dried_ghast": {
+  "minecraft:recipes/combat/saddle": {
     "criteria": {
-      "has_ghast_tear": "2025-06-20 17:18:44 +0700"
+      "has_leather": "2025-06-20 17:12:42 +0700"
     },
     "done": true
   },
@@ -4525,9 +4526,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/saddle": {
+  "minecraft:recipes/building_blocks/dried_ghast": {
     "criteria": {
-      "has_leather": "2025-06-20 17:12:42 +0700"
+      "has_ghast_tear": "2025-06-20 17:18:44 +0700"
     },
     "done": true
   },
