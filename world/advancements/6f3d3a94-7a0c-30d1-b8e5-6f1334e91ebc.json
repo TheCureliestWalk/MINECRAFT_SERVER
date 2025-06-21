@@ -39,6 +39,7 @@
       "minecraft:stony_shore": "2025-06-02 01:51:30 +0700",
       "minecraft:snowy_plains": "2025-06-15 22:18:41 +0700",
       "minecraft:dripstone_caves": "2025-06-11 23:50:52 +0700",
+      "minecraft:frozen_peaks": "2025-06-21 19:37:19 +0700",
       "minecraft:old_growth_birch_forest": "2025-06-11 17:04:21 +0700",
       "minecraft:deep_dark": "2025-06-16 18:49:01 +0700",
       "minecraft:grove": "2025-06-02 01:31:26 +0700",
@@ -4230,6 +4231,12 @@
   "minecraft:recipes/combat/dye_blue_harness": {
     "criteria": {
       "has_needed_dye": "2025-06-20 19:51:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-06-21 20:23:44 +0700"
     },
     "done": true
   },

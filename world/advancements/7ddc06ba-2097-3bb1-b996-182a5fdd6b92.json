@@ -4781,15 +4781,99 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/orange_dye_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2025-06-21 18:47:52 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leaf_litter": {
     "criteria": {
       "has_leaves": "2025-06-21 18:50:23 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/misc/orange_dye_from_torchflower": {
+  "minecraft:recipes/building_blocks/quartz_stairs": {
     "criteria": {
-      "has_torchflower": "2025-06-21 18:47:52 +0700"
+      "has_chiseled_quartz_block": "2025-06-21 19:13:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-06-21 19:13:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-06-21 19:13:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-06-21 19:13:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2025-06-21 19:13:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2025-06-21 19:13:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-06-21 19:13:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-06-21 19:13:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-06-21 19:13:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-06-21 19:13:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-06-21 19:13:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_cactus_flower": {
+    "criteria": {
+      "has_cactus_flower": "2025-06-21 19:13:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-06-21 23:06:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-06-21 23:06:14 +0700"
     },
     "done": true
   },

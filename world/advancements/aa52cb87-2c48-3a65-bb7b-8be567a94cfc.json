@@ -4532,6 +4532,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leaf_litter": {
+    "criteria": {
+      "has_leaves": "2025-06-20 23:51:08 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_white_dye": "2025-06-21 17:34:50 +0700"
@@ -4547,12 +4553,6 @@
   "minecraft:recipes/combat/dye_white_harness": {
     "criteria": {
       "has_needed_dye": "2025-06-21 17:34:50 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leaf_litter": {
-    "criteria": {
-      "has_leaves": "2025-06-20 23:51:08 +0700"
     },
     "done": true
   },
@@ -4598,12 +4598,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pale_oak_planks": {
-    "criteria": {
-      "has_log": "2025-06-21 18:44:02 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_white_dye": "2025-06-21 17:34:50 +0700"
@@ -4625,6 +4619,12 @@
   "minecraft:recipes/food/dried_kelp": {
     "criteria": {
       "has_dried_kelp_block": "2025-06-21 18:41:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_planks": {
+    "criteria": {
+      "has_log": "2025-06-21 18:44:02 +0700"
     },
     "done": true
   },
