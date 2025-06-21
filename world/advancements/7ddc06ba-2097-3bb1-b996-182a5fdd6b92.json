@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:cold_ocean": "2025-06-05 00:26:23 +0700",
       "minecraft:snowy_slopes": "2025-05-28 23:23:07 +0700",
+      "minecraft:old_growth_pine_taiga": "2025-06-21 00:45:02 +0700",
       "minecraft:forest": "2025-05-28 21:49:06 +0700",
       "minecraft:taiga": "2025-05-29 03:00:18 +0700",
       "minecraft:deep_ocean": "2025-05-31 02:44:55 +0700",
@@ -23,6 +24,7 @@
       "minecraft:sunflower_plains": "2025-05-29 00:08:10 +0700",
       "minecraft:cherry_grove": "2025-05-29 00:56:37 +0700",
       "minecraft:birch_forest": "2025-06-02 22:33:15 +0700",
+      "minecraft:snowy_beach": "2025-06-21 00:38:03 +0700",
       "minecraft:wooded_badlands": "2025-05-31 01:27:42 +0700",
       "minecraft:bamboo_jungle": "2025-06-03 03:48:09 +0700",
       "minecraft:windswept_savanna": "2025-05-31 02:06:38 +0700",
@@ -40,6 +42,7 @@
       "minecraft:snowy_plains": "2025-06-18 00:40:31 +0700",
       "minecraft:dripstone_caves": "2025-05-31 02:05:17 +0700",
       "minecraft:snowy_taiga": "2025-06-10 20:18:08 +0700",
+      "minecraft:frozen_peaks": "2025-06-21 00:30:47 +0700",
       "minecraft:old_growth_birch_forest": "2025-06-08 02:14:29 +0700",
       "minecraft:deep_dark": "2025-06-08 17:28:59 +0700",
       "minecraft:grove": "2025-05-28 21:48:56 +0700",
@@ -1197,6 +1200,7 @@
       "minecraft:wolf": "2025-06-09 01:51:36 +0700",
       "minecraft:panda": "2025-06-09 00:07:45 +0700",
       "minecraft:frog": "2025-06-19 20:56:31 +0700",
+      "minecraft:turtle": "2025-06-21 17:07:52 +0700",
       "minecraft:sheep": "2025-05-29 00:37:32 +0700",
       "minecraft:bee": "2025-06-07 18:14:38 +0700"
     },
@@ -4756,6 +4760,36 @@
   "minecraft:adventure/lighten_up": {
     "criteria": {
       "lighten_up": "2025-06-20 19:48:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-06-21 01:09:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-06-21 01:09:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2025-06-21 18:47:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leaf_litter": {
+    "criteria": {
+      "has_leaves": "2025-06-21 18:50:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2025-06-21 18:47:52 +0700"
     },
     "done": true
   },
