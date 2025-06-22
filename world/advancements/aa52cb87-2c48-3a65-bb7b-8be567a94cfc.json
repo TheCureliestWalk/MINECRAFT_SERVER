@@ -4634,5 +4634,11 @@
     },
     "done": true
   },
+  "minecraft:adventure/lighten_up": {
+    "criteria": {
+      "lighten_up": "2025-06-22 03:21:50 +0700"
+    },
+    "done": true
+  },
   "DataVersion": 4435
 }

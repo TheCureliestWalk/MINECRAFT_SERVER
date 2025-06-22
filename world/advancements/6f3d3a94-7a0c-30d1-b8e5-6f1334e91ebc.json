@@ -2066,8 +2066,13 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
+      "minecraft:calico": "2025-06-22 01:40:46 +0700",
       "minecraft:jellie": "2025-06-12 01:24:53 +0700",
-      "minecraft:ragdoll": "2025-06-10 17:11:20 +0700"
+      "minecraft:persian": "2025-06-22 01:42:46 +0700",
+      "minecraft:black": "2025-06-22 01:43:00 +0700",
+      "minecraft:ragdoll": "2025-06-10 17:11:20 +0700",
+      "minecraft:british_shorthair": "2025-06-22 01:43:03 +0700",
+      "minecraft:red": "2025-06-22 01:43:51 +0700"
     },
     "done": false
   },
@@ -4237,6 +4242,30 @@
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2025-06-21 20:23:44 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2025-06-22 01:45:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-06-22 01:46:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-06-22 01:46:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-06-22 01:46:50 +0700"
     },
     "done": true
   },
