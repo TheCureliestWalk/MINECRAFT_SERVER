@@ -5340,9 +5340,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/resin_block": {
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_honeycomb": {
     "criteria": {
-      "has_resin_clump": "2025-06-22 20:15:46 +0700"
+      "has_oxidized_cut_copper_stairs": "2025-06-22 19:44:52 +0700"
     },
     "done": true
   },
@@ -5352,21 +5352,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/resin_brick": {
-    "criteria": {
-      "has_resin_clump": "2025-06-22 20:15:46 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_honeycomb": {
     "criteria": {
       "has_oxidized_cut_copper_slab": "2025-06-22 19:45:11 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_honeycomb": {
+  "minecraft:recipes/building_blocks/resin_block": {
     "criteria": {
-      "has_oxidized_cut_copper_stairs": "2025-06-22 19:44:52 +0700"
+      "has_resin_clump": "2025-06-22 20:15:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/resin_brick": {
+    "criteria": {
+      "has_resin_clump": "2025-06-22 20:15:46 +0700"
     },
     "done": true
   },

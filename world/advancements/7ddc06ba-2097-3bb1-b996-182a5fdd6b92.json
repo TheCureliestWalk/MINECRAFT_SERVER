@@ -2381,9 +2381,10 @@
       "minecraft:crimson_forest": "2025-06-01 00:48:25 +0700",
       "minecraft:nether_wastes": "2025-06-01 01:16:32 +0700",
       "minecraft:soul_sand_valley": "2025-06-01 01:12:54 +0700",
-      "minecraft:warped_forest": "2025-06-01 01:20:31 +0700"
+      "minecraft:warped_forest": "2025-06-01 01:20:31 +0700",
+      "minecraft:basalt_deltas": "2025-06-23 00:15:57 +0700"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
@@ -4892,6 +4893,54 @@
   "minecraft:recipes/combat/dye_red_harness": {
     "criteria": {
       "has_needed_dye": "2025-06-22 00:47:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-23 00:26:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-06-23 00:26:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2025-06-23 00:26:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2025-06-23 00:26:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/blue_bundle": {
+    "criteria": {
+      "has_blue_dye": "2025-06-23 00:26:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-23 00:26:52 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_on": {
+    "criteria": {
+      "wax_on": "2025-06-23 00:08:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_blue_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-06-23 00:26:52 +0700"
     },
     "done": true
   },

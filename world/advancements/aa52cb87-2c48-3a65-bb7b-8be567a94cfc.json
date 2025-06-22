@@ -4640,5 +4640,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2025-06-23 00:45:31 +0700"
+    },
+    "done": true
+  },
   "DataVersion": 4435
 }
