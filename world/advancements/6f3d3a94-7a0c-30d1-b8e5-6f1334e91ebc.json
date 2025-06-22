@@ -2067,6 +2067,7 @@
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
       "minecraft:calico": "2025-06-22 01:40:46 +0700",
+      "minecraft:siamese": "2025-06-23 01:49:40 +0700",
       "minecraft:jellie": "2025-06-12 01:24:53 +0700",
       "minecraft:persian": "2025-06-22 01:42:46 +0700",
       "minecraft:black": "2025-06-22 01:43:00 +0700",
@@ -2078,6 +2079,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cat": "2025-06-23 01:53:22 +0700",
       "minecraft:cow": "2025-06-10 20:32:39 +0700",
       "minecraft:pig": "2025-06-15 20:59:40 +0700",
       "minecraft:wolf": "2025-06-20 19:55:04 +0700",
@@ -4266,6 +4268,12 @@
   "minecraft:recipes/food/cooked_cod": {
     "criteria": {
       "has_cod": "2025-06-22 01:46:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-06-23 01:47:56 +0700"
     },
     "done": true
   },

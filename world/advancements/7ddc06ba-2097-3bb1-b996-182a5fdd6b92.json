@@ -4896,6 +4896,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/wax_on": {
+    "criteria": {
+      "wax_on": "2025-06-23 00:08:16 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/dye_blue_carpet": {
     "criteria": {
       "has_needed_dye": "2025-06-23 00:26:52 +0700"
@@ -4929,12 +4935,6 @@
   "minecraft:recipes/decorations/dye_blue_bed": {
     "criteria": {
       "has_needed_dye": "2025-06-23 00:26:52 +0700"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/wax_on": {
-    "criteria": {
-      "wax_on": "2025-06-23 00:08:16 +0700"
     },
     "done": true
   },
