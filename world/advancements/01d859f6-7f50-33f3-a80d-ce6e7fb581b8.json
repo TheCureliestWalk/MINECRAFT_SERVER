@@ -5376,5 +5376,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_trapdoor_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper_trapdoor": "2025-06-23 03:53:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2025-06-23 12:59:01 +0700"
+    },
+    "done": true
+  },
   "DataVersion": 4435
 }
