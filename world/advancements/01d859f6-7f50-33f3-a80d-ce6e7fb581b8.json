@@ -5388,5 +5388,83 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-06-23 21:20:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-06-23 21:20:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-23 21:20:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-23 21:20:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-06-23 21:20:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-23 21:20:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-06-23 21:20:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-23 21:20:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-06-23 21:20:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_door_from_honeycomb": {
+    "criteria": {
+      "has_copper_door": "2025-06-23 21:42:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-06-24 20:43:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-06-24 20:43:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_red_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-06-24 20:43:37 +0700"
+    },
+    "done": true
+  },
   "DataVersion": 4435
 }

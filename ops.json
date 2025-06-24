@@ -4,18 +4,22 @@
     "name": "IjoZyet",
     "level": 4,
     "bypassesPlayerLimit": false
-  }
-  ,
-  {
-    "uuid": "d221af0e-6f05-3a6b-bbe7-e239f4832fbb",
-    "name": "BigRaph",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  }
-  ,
+  },
   {
     "uuid": "a5258050-5fec-4705-84c5-0b42871eed6a",
     "name": "Kcin404",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "aa52cb87-2c48-3a65-bb7b-8be567a94cfc",
+    "name": "Kcin404",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d221af0e-6f05-3a6b-bbe7-e239f4832fbb",
+    "name": "BigRaph",
     "level": 4,
     "bypassesPlayerLimit": false
   }

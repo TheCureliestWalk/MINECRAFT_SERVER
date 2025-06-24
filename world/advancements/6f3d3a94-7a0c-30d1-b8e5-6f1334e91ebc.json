@@ -71,6 +71,7 @@
       "apple": "2025-06-17 18:26:26 +0700",
       "cooked_rabbit": "2025-06-17 18:07:21 +0700",
       "cooked_chicken": "2025-06-18 19:26:44 +0700",
+      "potato": "2025-06-24 01:30:38 +0700",
       "rabbit": "2025-06-19 18:35:23 +0700",
       "cooked_salmon": "2025-06-20 18:59:40 +0700"
     },
@@ -4274,6 +4275,132 @@
   "minecraft:recipes/building_blocks/magma_block": {
     "criteria": {
       "has_magma_cream": "2025-06-23 01:47:56 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-06-23 22:58:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-06-23 23:00:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leaf_litter": {
+    "criteria": {
+      "has_leaves": "2025-06-23 23:53:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-06-24 01:16:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-06-24 01:16:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-06-24 01:16:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-06-24 02:01:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-06-24 02:01:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-06-24 02:01:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-06-24 02:01:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-06-24 02:01:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-06-24 02:01:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-24 04:16:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_fence": {
+    "criteria": {
+      "has_planks": "2025-06-24 04:16:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-24 04:16:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-24 04:16:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-24 04:16:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_sign": {
+    "criteria": {
+      "has_planks": "2025-06-24 04:16:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_button": {
+    "criteria": {
+      "has_planks": "2025-06-24 04:16:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_door": {
+    "criteria": {
+      "has_planks": "2025-06-24 04:16:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_slab": {
+    "criteria": {
+      "has_planks": "2025-06-24 04:16:17 +0700"
     },
     "done": true
   },
