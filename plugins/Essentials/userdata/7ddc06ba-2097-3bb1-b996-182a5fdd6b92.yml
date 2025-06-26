@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 100.127.251.128
+ip-address: 127.0.0.1
 afk: false
 socialspy: false
 npc: false
@@ -11,45 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1750343543737
+  lastteleport: 1750962436165
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1750343555436
-  login: 1750339575649
+  logout: 1750962913194
+  login: 1750962414902
 money: '0'
-lastlocation:
-  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
-  world-name: world
-  x: 321.13463240856424
-  y: 95.5
-  z: -509.65749506746414
-  yaw: -98.11344909667969
-  pitch: 11.703227996826172
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 434.74156066557276
-  y: 94.0
-  z: -494.948743644206
-  yaw: 48.743194580078125
-  pitch: -6.599902153015137
+  x: 302.7987094226821
+  y: 91.9375
+  z: -663.3055097816787
+  yaw: -94.49981689453125
+  pitch: 23.100086212158203
 last-account-name: IjoZyet
-homes:
-  castle:
-    world: b2d476ee-15e8-428a-b87d-46f1ec13a167
-    world-name: world
-    x: 518.5
-    y: 116.0
-    z: -558.5
-    yaw: 46.05157470703125
-    pitch: 7.049939155578613
-  sadsadaa:
-    world: b2d476ee-15e8-428a-b87d-46f1ec13a167
-    world-name: world
-    x: 344.5
-    y: 94.5625
-    z: -491.5
-    yaw: -84.5999984741211
-    pitch: -3.900000810623169
+lastlocation:
+  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+  world-name: world
+  x: 203.11157743916536
+  y: 63.0
+  z: -666.1161719708253
+  yaw: -96.15005493164062
+  pitch: 1.3499975204467773
