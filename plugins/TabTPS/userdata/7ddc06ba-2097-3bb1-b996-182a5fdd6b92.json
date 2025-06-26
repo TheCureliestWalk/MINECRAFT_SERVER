@@ -3,7 +3,7 @@
     "enabled": true
   },
   "actionBarDisplayHandler": {
-    "enabled": false
+    "enabled": true
   },
   "bossBarDisplayHandler": {
     "enabled": false
