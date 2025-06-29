@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 26.131.113.159
+ip-address: ''
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,27 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1750262057398
+  lastteleport: 1751177494273
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1750266194292
-  login: 1750263907567
-money: '3000'
+  logout: 1751178105261
+  login: 0
+money: '0'
 lastlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 515.719874726134
-  y: 116.0
-  z: -558.225289654297
-  yaw: -20.54833984375
-  pitch: 5.85002326965332
-last-account-name: BigRaph
+  x: 177.18246844093767
+  y: 76.0
+  z: -633.1283203013692
+  yaw: 97.79852294921875
+  pitch: -1.7999372482299805
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: -890.9046727225468
-  y: 84.4042599823538
-  z: 1424.0420038839056
-  yaw: -58.65582275390625
-  pitch: 20.550161361694336
+  x: 135.38389723202727
+  y: 80.90030218420874
+  z: -680.726332579318
+  yaw: 1.498551845550537
+  pitch: 33.299983978271484
