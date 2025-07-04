@@ -1,0 +1,22 @@
+invalid: false
+name: proxymine
+displayname: '&7Proxy-Mine'
+lore:
+- '&8[LMB] to activate'
+- '&8[RMB] to throw'
+- '&8Proxy-Mines explode after being thrown by pressing [SHIFT]'
+- '&4<!>Will Not Explode If Not Thrown<!>'
+id: 81
+craftingRequirements:
+- IRON_INGOT,0,6
+- GUNPOWDER,0,10
+price: 100
+material: CROSSBOW
+damage: 100
+durability: 1
+MiscType: PROXYMINES
+lastModifiedByQA: 1749914024010
+radius: 5
+weaponsounds: bulletmedium
+maxItemStack: 1
+ThrowSpeed: 1.5

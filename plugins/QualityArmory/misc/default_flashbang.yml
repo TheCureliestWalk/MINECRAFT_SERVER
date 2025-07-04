@@ -1,0 +1,22 @@
+invalid: false
+name: flashbang
+displayname: '&7FlashBang'
+lore:
+- §8[LMB] to pull pin
+- §8[RMB] to throw
+- §8Flashbangs wait §7FIVE seconds§8 before exploding.
+- §4<!>Will Explode Even If Not Thrown<!>
+id: 22
+craftingRequirements:
+- IRON_INGOT,0,6
+- GUNPOWDER,0,10
+price: 100
+material: CROSSBOW
+damage: 100
+durability: 1
+MiscType: FLASHBANGS
+lastModifiedByQA: 1749914022420
+radius: 5
+weaponsounds: bulletmedium
+maxItemStack: 1
+ThrowSpeed: 1.5

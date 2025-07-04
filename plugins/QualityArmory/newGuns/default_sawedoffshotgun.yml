@@ -1,0 +1,56 @@
+name: sawedoffshotgun
+displayname: '&6Sawed-off Shotgun'
+id: 63
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,15
+- REDSTONE,0,5
+weapontype: SHOTGUN
+weaponsounds: bulletshotgun
+enableIronSights: true
+ammotype: shell
+damage: 2
+maxbullets: 2
+price: 1000
+ReloadingHandler: SingleBulletReload
+weaponsounds_reloadingSound: reloadshell
+delayForReload: 1.0
+bullets-per-shot: 20
+material: CROSSBOW
+maxBulletDistance: 80
+recoil: 11.0
+invalid: false
+durability: 1000
+maxItemStack: 1
+setZoomLevel: 0
+sway:
+  defaultValue: 0.2
+  defaultMultiplier: 2
+  sneakModifier: true
+  moveModifier: true
+  runModifier: true
+  unscopedModifier: 1
+firerate: 1
+delayForShoot: 0.3
+isAutomatic: false
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+slownessOnEquip: 0
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 1
+  bullet_particleG: 1
+  bullet_particleB: 1
+  bullet_particleData: 0
+  bullet_particleMaterial: COAL_BLOCK
+Version_18_Support: false
+ChargingHandler: none
+addMuzzleSmoke: true
+drop-glow-color: none
+headshotMultiplier: 3.5
+weaponsounds_volume: 4
+firing_knockback: 0
+KilledByMessage: '%player% was shot by %killer% using a %name%'
+DestructableMaterials:
+- MATERIAL_NAME_HERE
+lastModifiedByQA: 1749969734775

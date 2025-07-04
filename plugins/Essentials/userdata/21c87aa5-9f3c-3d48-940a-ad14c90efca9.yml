@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 10.154.1.200
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749403576542
+  login: 1749399992885
+money: '300'
+last-account-name: VeLxze
+logoutlocation:
+  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+  world-name: world
+  x: 423.3719159947409
+  y: 65.0
+  z: -864.6731821879764
+  yaw: -12.665374755859375
+  pitch: 20.249937057495117
+mail:
+- legacy: false
+  read: false
+  message: '!!HELLO!!'
+  sender-name: IjoZyet
+  sender-uuid: 7ddc06ba-2097-3bb1-b996-182a5fdd6b92
+  timestamp: 1749118338580
+  expire: 0

@@ -1,0 +1,21 @@
+invalid: false
+name: ncrhelmet
+displayname: '&6NCR Ranger Helmet'
+lore: []
+id: 19
+craftingRequirements:
+- IRON_INGOT,0,5
+- OBSIDIAN,0,1
+price: 5000
+MiscType: HELMET
+minProtectionHeight: 1.5
+maxProtectionHeight: 2.0
+stopsHeadshots: true
+lastModifiedByQA: 1749914022977
+material: PHANTOM_MEMBRANE
+weaponsounds: bulletmedium
+damage: 3
+durability: 1000
+maxItemStack: 1
+Version_18_Support: false
+protection: 1

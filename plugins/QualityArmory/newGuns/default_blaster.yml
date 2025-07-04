@@ -1,0 +1,58 @@
+name: blaster
+displayname: '&6"Blaster" Pistol'
+id: 43
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,12
+- GOLD_INGOT,0,2
+- REDSTONE,0,5
+weapontype: LAZER
+weaponsounds: bulletswblaster
+enableIronSights: false
+ammotype: fusion_cell
+damage: 4
+maxbullets: 20
+price: 1600
+firerate: 1
+isAutomatic: true
+bullets-per-shot: 1
+addMuzzleSmoke: false
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 1.0
+  bullet_particleG: 0.0
+  bullet_particleB: 0.0
+  bullet_particleMaterial: REDSTONE_BLOCK
+  bullet_particleData: 0
+lore:
+- '&fMiss all the shots you want!'
+recoil: 0.0
+material: CROSSBOW
+KilledByMessage: '%player% was pew-pew''d by %killer% using a %name%'
+invalid: false
+durability: 1000
+maxItemStack: 1
+setZoomLevel: 0
+sway:
+  defaultValue: 0.2
+  defaultMultiplier: 2
+  sneakModifier: true
+  moveModifier: true
+  runModifier: true
+  unscopedModifier: 1
+delayForReload: 1.5
+delayForShoot: 0.3
+maxBulletDistance: 200
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+slownessOnEquip: 0
+Version_18_Support: false
+ChargingHandler: none
+ReloadingHandler: none
+drop-glow-color: none
+headshotMultiplier: 3.5
+weaponsounds_volume: 4
+firing_knockback: 0
+DestructableMaterials:
+- MATERIAL_NAME_HERE
+lastModifiedByQA: 1749914022874

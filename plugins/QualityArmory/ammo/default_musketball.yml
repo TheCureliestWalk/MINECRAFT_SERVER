@@ -1,0 +1,17 @@
+invalid: false
+name: musketball
+displayname: '&fMusket Ball'
+lore: []
+id: 6
+craftingRequirements:
+- IRON_INGOT,0,4
+- GUNPOWDER,0,3
+craftingReturnAmount: 8
+price: 1
+maxItemStack: 32
+material: PHANTOM_MEMBRANE
+piercingSeverity: 0.7
+lastModifiedByQA: 1749914022319
+weaponsounds: bulletmedium
+damage: 3
+durability: 1000

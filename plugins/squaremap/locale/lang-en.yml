@@ -1,0 +1,136 @@
+render-in-progress: <red>A render is already in progress on <world>
+render-not-in-progress: <red>No renders running for <world>
+cancelled-render: <green>Render cancelled for <world>
+successfully-reset-map: <green>Successfully reset map for <world>
+paused-renders: <green>Paused renders for <world>
+unpaused-renders: <green>Unpaused renders for <world>
+command:
+    message:
+        console-must-specify-player: <red>You must specify a target player when running
+            this command from console
+        console-must-specify-world: <red>You must specify the world when running this
+            command from console
+        no-such-world: No such world '<world>'
+        map-not-enabled-for-world: Map is not enabled for world '<world>'
+        confirmation-required: <red>Confirmation required. Confirm using /<command>
+            confirm.
+        no-pending-commands: <red>You don't have any pending commands.
+        progresslogging:
+            enabled: <green>Render progress logging has been enabled.
+            disabled: <green>Render progress logging has been disabled.
+            set-rate: <green>Render progress logging interval has been set to </green><seconds>
+                seconds
+            statusmessage: 'Render progress logging enabled: <enabled>, interval:
+                <green><seconds></green> seconds'
+        help:
+            help: squaremap command help
+            command: Command
+            description: Description
+            no_description: No description
+            arguments: Arguments
+            optional: Optional
+            showing_results_for_query: Showing search results for query
+            no_results_for_query: No results for query
+            available_commands: Available Commands
+            click_to_show_help: Click to show help for this command
+            page_out_of_range: 'Error: Page <page> is not in range. Must be in range
+                [1, <max_pages>]'
+            click_for_next_page: Click for next page
+            click_for_previous_page: Click for previous page
+        exception:
+            command-execution: <red>An internal error occurred while attempting to
+                perform this command.
+            no-permission: |-
+                <red>I'm sorry, but you do not have permission to perform this command.
+                Please contact the server administrators if you believe that this is in error.
+            invalid-argument: <red>Invalid command argument<white>:</white> <gray><message>
+            invalid-sender-type: <red>Invalid command sender type. You must be of
+                type <gray><required_sender_type></gray>.
+            invalid-syntax: <red>Invalid command syntax. Correct command syntax is<white>:</white>
+                <gray><correct_syntax>
+        parser-exception:
+            string: '''<input>'' is not a valid string of type <string_mode>'
+            number: '''<input>'' is not a valid number in the range <min> to <max>'
+            location:
+                invalid_format: '''<input>'' is not a valid location. Required format
+                    is ''<x> <z>'''
+                mixed_local_absolute: Cannot mix local and absolute coordinates. (either
+                    all coordinates use '^' or none do)
+            selector:
+                malformed: Selector '<input>' is malformed
+                too_many_players: More than 1 player selected in single player selector
+                non_player_in_player_selector: Non-player(s) selected in player selector
+        link: 'Click to open map: <green><click:open_url:''<link>''><link>'
+    prefix: '<white>[<gradient:#C028FF:#5B00FF>squaremap</gradient>]</white> '
+    description:
+        help: Get help for squaremap commands
+        resetmap: Resets the map of a specified world
+        confirm: Confirm a pending command
+        reload: Reloads the plugin
+        full-render: Starts a full render for the specified world
+        cancel-render: Cancels a render for the specified world
+        pause-render: Pauses all renders for the specified world
+        radius-render: Starts a radius render
+        progresslogging:
+            status: Prints the current settings for render progress logging
+            toggle: Toggles render progress logging on or off
+            rate: Sets the interval in seconds for logging render progress
+        hide: Hide a player from the map view
+        show: Show a player on the map view
+        link: Get a link to the map at your current location
+    argument:
+        optional-world: Defaults to the players current world if not provided
+        optional-center: Defaults to (<white>0<gray>,</gray> 0</white>) if unspecified
+        optional-player: Defaults to the executing player if unspecified (console
+            must specify a player)
+        help-query: Help Query
+    hide:
+        already-hidden: <red><player> is already hidden from map
+        hidden: <green><player> is now hidden from map
+    show:
+        not-hidden: <red><player> is not hidden from map
+        shown: <green><player> is no longer hidden from map
+click-to-copy: Click to copy to clipboard
+click-for-help: Click for help
+click-to-confirm: Click to confirm
+click-to-toggle: Click to toggle
+plugin-reloaded: <green><name> v<version> reloaded
+ui:
+    page-title: squaremap - {world}
+    coordinates: Coordinates<br/>{x}, {z}
+    sidebar:
+        player-list: Players ({cur}/{max})
+        world-list: Worlds
+    layers:
+        player-tracker: Players
+        world-spawn: Spawn
+        world-border: World Border
+log:
+    started-full-render: Started full map render for <world>
+    started-radius-render: Started radius map render for <world>
+    scanning-region-files: Scanning region files... (this may take a moment)
+    found-total-region-files: Found <total> region files
+    finished-rendering: Finished rendering map for <world>
+    cancelled-rendering: Rendering map for <world> has been interrupted
+    resumed-rendering: Rendering map for <world> has been resumed
+    scanning-region-progress: '(<percent>) World: <world> Chunks: <current_chunks>/<total_chunks>
+        Elapsed: <elapsed> ETA: <eta> Rate: <rate> cps'
+    scanning-region-progress-with-regions: '(<percent>) World: <world> Regions: <current_regions>/<total_regions>
+        Chunks: <current_chunks>/<total_chunks> Elapsed: <elapsed> ETA: <eta> Rate:
+        <rate> cps'
+    internal-web-disabled: Internal webserver is disabled in config.yml
+    internal-web-started: Internal webserver running on <bind>:<port>
+    internal-web-stopped: Internal webserver stopped
+    internal-web-start-error: Internal webserver could not start
+    could-not-create-directory: Could not create directory! <path>
+    could-not-read-region: Could not read map image for region <x>,<z> (image corrupted?).
+        It will be overwritten.
+    could-not-save-region: Could not save map for region <x>,<z>
+    internal-web-not-running: An error occurred with the internal webserver
+    update-checker:
+        fetching-version-information: Fetching version information...
+        behind-branch: squaremap is <behind> version(s) behind branch '<branch>'!
+        download-dev-builds: Download dev builds from <link>
+        unknown-commit: Unknown commit '<commit>', cannot check for updates.
+        behind-releases: squaremap is <behind> version(s) out of date.
+        download-release: Download the latest release (<latest>) from <link>

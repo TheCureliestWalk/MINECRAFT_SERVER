@@ -1,0 +1,22 @@
+invalid: false
+name: LightSaberGreen
+displayname: LightSaber (Green)
+lore:
+- '&fI see you have constructed a new lightsaber.'
+- '&fYour skills are complete.'
+- '&fIndeed you are powerful, as the Emperor has foreseen.'
+id: 72
+craftingRequirements:
+- IRON_INGOT,0,8
+- NETHER_STAR,0,1
+price: 10000
+material: CROSSBOW
+damage: 9
+durability: 1000
+MiscType: MELEE
+lastModifiedByQA: 1749914023989
+sound_equip: lightsaberstart
+sound_meleehit: saberhit
+weaponsounds: bulletmedium
+maxItemStack: 1
+ThrowSpeed: 1.5

@@ -1,0 +1,11 @@
+_java
+.fabric
+bluemap
+bundler
+crash-reports
+cache
+versions
+libraries
+logs
+*.lock
+plugins/.paper-remapped

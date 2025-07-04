@@ -1,0 +1,18 @@
+invalid: false
+name: 40mm
+displayname: '&f40x46mm'
+lore: []
+id: 8
+craftingRequirements:
+- IRON_INGOT,0,1
+- GUNPOWDER,0,1
+- REDSTONE,0,1
+craftingReturnAmount: 1
+price: 30
+maxItemStack: 10
+material: PHANTOM_MEMBRANE
+piercingSeverity: 10.0
+lastModifiedByQA: 1749914022327
+weaponsounds: bulletmedium
+damage: 3
+durability: 1000

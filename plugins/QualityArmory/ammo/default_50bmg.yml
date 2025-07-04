@@ -1,0 +1,18 @@
+invalid: false
+name: 50bmg
+displayname: '&f.50BMG'
+lore: []
+id: 7
+craftingRequirements:
+- IRON_INGOT,0,1
+- GUNPOWDER,0,1
+- REDSTONE,0,1
+craftingReturnAmount: 1
+price: 10
+maxItemStack: 30
+material: PHANTOM_MEMBRANE
+piercingSeverity: 3.0
+lastModifiedByQA: 1749914022323
+weaponsounds: bulletmedium
+damage: 3
+durability: 1000

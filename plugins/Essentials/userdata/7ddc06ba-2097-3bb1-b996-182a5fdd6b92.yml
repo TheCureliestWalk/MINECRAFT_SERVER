@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1751650607875
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751650747862
+  login: 1751634615315
+money: '0'
+logoutlocation:
+  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+  world-name: world
+  x: 806.9475897073739
+  y: 104.0
+  z: 3475.4664301498065
+  yaw: 132.59210205078125
+  pitch: 36.74993133544922
+last-account-name: IjoZyet
+lastlocation:
+  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+  world-name: world
+  x: 167.92478314819272
+  y: 63.0
+  z: -627.6368769662762
+  yaw: 100.79983520507812
+  pitch: 12.149982452392578

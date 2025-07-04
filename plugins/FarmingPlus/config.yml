@@ -1,0 +1,208 @@
+# Support: https://discord.gg/2KhE6xeEnf
+# GitHub: https://github.com/Manuton04/FarmingPlus
+#
+# Developers: Manuton
+# GitHub: https://github.com/Manuton04
+#
+# Configuration for the plugin #
+config:
+  # This sends anonymous statistics that helps me improve the plugin. It's not necessary, but it helps to maintain me motivated. #
+  enabled-metrics: true
+  # This is the interval in minutes that the plugin will save the data #
+  # For example, records of rewards #
+  save-interval: 3
+  # This is the prefix that will be shown in the messages #
+  prefix: "&6&l[&2&lFarmingPlus&6&l] "
+  mysql:
+    # This is the interval in minutes that the plugin will download the data from the database #
+    # If this number is major than the save-interval from above, it will be ignored #
+    download-interval: 5
+    enabled: false
+    host: ""
+    port:
+    database: ""
+    username: ""
+    password: ""
+  not-top-reward: "&cNo one in top %farmingplus_top_number%"
+  top-previous: "&c&l<< Previous"
+  top-next: "&a&lNext >>"
+  use-help: "%farmingplus_prefix%&eUse /fp help for more information."
+
+
+
+  gui:
+    title: "&7Enchanting Menu"
+    empty-slot: "BLACK_STAINED_GLASS_PANE"
+    # Leave them empty if you don't want any sound #
+    # Volume goes from 0.1 to 1.0 #
+    sound-on-open: "BLOCK_CHEST_OPEN"
+    volume-on-open: 0.5
+    sound-on-close: "BLOCK_CHEST_CLOSE"
+    volume-on-close: 0.5
+    sound-on-enchant: "ENTITY_PLAYER_LEVELUP"
+    volume-on-enchant: 0.5
+    confirm: "LIME_WOOL"
+    cancel: "RED_WOOL"
+    enchant-title: "&aEnchant Item"
+    enchant-message1:
+      - "&7Add FarmingPlus´ enchantments from"
+      - "&7the item in the slot above."
+    enchant-message2:
+      - "&7Place an item to enchant"
+      - "&7in the open slot!"
+    enchanted: "&a&l✔ Enchanted"
+    click-to-see: "&eClick to see!"
+    item-cost-title: "&eEnchanting item Cost:"
+    cost-message: "&7Cost: "
+    xp-levels-message: "XP Levels"
+
+
+
+  enchantments:
+    replenish:
+      name: "Replenish"
+      lore-name: "&7Replenish I"
+      lore:
+        - "&7Allows you to replant crops"
+        - "&7you break automatically."
+      # Leave it empty if you don't want any sound #
+      # Volume goes from 0.1 to 1.0 #
+      sound-on-break: "BLOCK_COMPOSTER_READY"
+      volume-on-break: 0.5
+      cost:
+        # Exp in levels #
+        exp: 30
+        money: 10000
+        # The format for items is: "MATERIAL AMOUNT [NAME that you want to show in the gui]"
+        items:
+          - "DIAMOND 1 [Diamond]"
+          - "GOLD_INGOT 8 [Gold Ingots]"
+        #NOT IMPLEMENTED RIGHT NOW, WAITING FOR PLUGIN TO UPDATE TO LAST VERSION#
+        # The required level to of the job to use this enchantment #
+        # Only works if using the Plugin [JobsReborn], even then its optional#
+        # Format: "JOB LEVEL" #
+        #lvlJobs:
+        #  - "FARMER 20"
+
+
+    farmers-grace:
+      name: "Farmer's Grace"
+      lore-name: "&7Farmer's Grace I"
+      lore:
+        - "&7Makes you immune to trampling farmland."
+      cost:
+        exp: 30
+        money: 10000
+        items:
+          - "DIAMOND 1 [Diamond]"
+          - "GOLD_INGOT 8 [Gold Ingots]"
+        # [JobsReborn] Only#
+        #NOT IMPLEMENTED RIGHT NOW, WAITING FOR PLUGIN TO UPDATE TO LAST VERSION#
+        #lvlJobs:
+        #    - "FARMER 10"
+        #    - "EXPLORER 20"
+
+    delicate:
+      name: "Delicate"
+      lore-name: "&7Delicate I"
+      lore:
+        - "&7Denies you from breaking stems."
+      cost:
+        exp: 30
+        money: 10000
+        items:
+          - "DIAMOND 1 [Diamond]"
+          - "GOLD_INGOT 8 [Gold Ingots]"
+
+    irrigate:
+      name: "Irrigate"
+      lore-name: "&7Irrigate I"
+      lore:
+        - "&7Allows you to fill 64 blocks"
+        - "&7in a row with water at once."
+      # Max blocks that can be irrigated at once in a row #
+      # Blocks are filled with water until its max or until it reaches a block #
+      max-blocks: 64
+      cost:
+        exp: 30
+        money: 10000
+        items:
+          - "DIAMOND 1 [Diamond]"
+          - "GOLD_INGOT 8 [Gold Ingots]"
+
+    farmers-step:
+      name: "Farmer's Step"
+      lore-name1: "&7Farmer's Step I"
+      lore-name2: "&7Farmer's Step II"
+      lore-name3: "&7Farmer's Step III"
+      general-lore:
+        - "&7Allows you to plant a selected"
+        - "&7crop by walking an area."
+      lore1:
+        - "&7Allows you to plant a selected"
+        - "&7crop by walking on 3x3 blocks."
+      lore2:
+        - "&7Allows you to plant a selected"
+        - "&7crop by walking on 5x5 blocks."
+      lore3:
+        - "&7Allows you to plant a selected"
+        - "&7crop by walking on 7x7 blocks."
+      cost1:
+        exp: 30
+        money: 5000
+        items:
+          - "DIAMOND 1 [Diamond]"
+          - "GOLD_INGOT 8 [Gold Ingots]"
+      cost2:
+        exp: 45
+        money: 10000
+        items:
+          - "DIAMOND 32 [Diamonds]"
+      cost3:
+        exp: 60
+        money: 15000
+        items:
+          - "DIAMOND_BLOCK 8 [Diamond Blocks]"
+      # This gui opens when using LEFT click in the air with the enchanted boots #
+      gui:
+        title: "&7Farmer's Step Menu"
+        empty-slot: "BLACK_STAINED_GLASS_PANE"
+        sound-on-set: "ENTITY_EXPERIENCE_ORB_PICKUP"
+        volume-on-set: 0.5
+
+    grand-tilling:
+      name: "Grand Tilling"
+      lore-name1: "&7Grand Tilling I"
+      lore-name2: "&7Grand Tilling II"
+      lore-name3: "&7Grand Tilling III"
+      general-lore:
+        - "&7Allows you to till farmland"
+        - "&7on a selected area."
+      lore1:
+        - "&7Allows you to till farmland"
+        - "&7on 3x3 blocks."
+      lore2:
+        - "&7Allows you to till farmland"
+        - "&7on 5x5 blocks."
+      lore3:
+        - "&7Allows you to till farmland"
+        - "&7on 64 blocks in a row"
+      cost1:
+        exp: 30
+        money: 5000
+        items:
+          - "DIAMOND 1 [Diamond]"
+          - "GOLD_INGOT 8 [Gold Ingots]"
+      cost2:
+        exp: 45
+        money: 10000
+        items:
+          - "DIAMOND 32 [Diamonds]"
+      cost3:
+        exp: 60
+        money: 15000
+        items:
+          - "DIAMOND_BLOCK 8 [Diamond Blocks]"
+      # Max blocks that can be tilled at once in a row #
+      # Blocks are tilled until its max or until it reaches a block that can't be tilled #
+      level3-max-blocks: 64

@@ -1,0 +1,142 @@
+# Translators: [DoctaEnkoda]
+
+
+render-in-progress: <red>Un rendu est déjà en cours sur le monde <world>
+render-not-in-progress: <red>Aucun rendu n'est en cours d'exécution pour le monde
+    <world>
+cancelled-render: <green>Rendu annulé pour le monde <world>
+successfully-reset-map: <green>La carte a été réinitialisée avec succès pour le monde
+    <world>
+paused-renders: <green>Rendu en pause pour le monde <world>
+unpaused-renders: <green>Reprise du rendu pour le monde <world>
+command:
+    message:
+        console-must-specify-player: <red>Vous devez spécifier un joueur pour exécuter
+            la commande par la console
+        console-must-specify-world: <red>Vous devez spécifier un monde pour exécuter
+            la commande par la console
+        no-such-world: Pas un tel monde '<world>'
+        map-not-enabled-for-world: La map n'est pas activée pour le monde '<world>'
+        confirmation-required: <red>Une confirmation est demandée. Confirmer ceci
+            avec /<command> confirm.
+        no-pending-commands: <red>Vous n'avez aucune commande en attente.
+        progresslogging:
+            enabled: <green>Render progress logging has been enabled.
+            disabled: <green>Render progress logging has been disabled.
+            set-rate: <green>Render progress logging interval has been set to </green><seconds>
+                seconds
+            statusmessage: 'Render progress logging enabled: <enabled>, interval:
+                <green><seconds></green> seconds'
+        link: "Click to open map: <green><click:open_url:'<link>'><link>"
+        help:
+            help: squaremap command help
+            command: Command
+            description: Description
+            no_description: No description
+            arguments: Arguments
+            optional: Optional
+            showing_results_for_query: Showing search results for query
+            no_results_for_query: No results for query
+            available_commands: Available Commands
+            click_to_show_help: Click to show help for this command
+            page_out_of_range: 'Error: Page <page> is not in range. Must be in range
+                [1, <max_pages>]'
+            click_for_next_page: Click for next page
+            click_for_previous_page: Click for previous page
+        exception:
+            command-execution: <red>An internal error occurred while attempting to
+                perform this command.
+            no-permission: |-
+                <red>I'm sorry, but you do not have permission to perform this command.
+                Please contact the server administrators if you believe that this is in error.
+            invalid-argument: <red>Invalid command argument<white>:</white> <gray><message>
+            invalid-sender-type: <red>Invalid command sender type. You must be of
+                type <gray><required_sender_type></gray>.
+            invalid-syntax: <red>Invalid command syntax. Correct command syntax is<white>:</white>
+                <gray><correct_syntax>
+        parser-exception:
+            string: '''<input>'' is not a valid string of type <string_mode>'
+            number: '''<input>'' is not a valid number in the range <min> to <max>'
+            location:
+                invalid_format: '''<input>'' is not a valid location. Required format
+                    is ''<x> <z>'''
+                mixed_local_absolute: Cannot mix local and absolute coordinates. (either
+                    all coordinates use '^' or none do)
+            selector:
+                malformed: Selector '<input>' is malformed
+                too_many_players: More than 1 player selected in single player selector
+                non_player_in_player_selector: Non-player(s) selected in player selector
+    prefix: '<white>[<gradient:#C028FF:#5B00FF>squaremap</gradient>]</white> '
+    description:
+        help: Obtenir de l'aide pour les commandes squaremap
+        resetmap: Réinitialiser la carte d'un monde spécifié
+        confirm: Confirmer une commande en attente
+        reload: Recharger le plugin
+        full-render: Démarrer un rendu complet pour le monde spécifié
+        cancel-render: Annuler un rendu pour le monde spécifié
+        pause-render: Suspendre tous les rendus pour le monde spécifié
+        radius-render: Démarrer un rendu de rayon
+        progresslogging:
+            status: Prints the current settings for render progress logging
+            toggle: Toggles render progress logging on or off
+            rate: Sets the interval in seconds for logging render progress
+        hide: Masquer un joueur sur la carte
+        show: Montrer un joueur sur la carte
+        link: Get a link to the map at your current location
+    argument:
+        optional-world: Par défaut le monde actuel des joueurs s'il n'est pas fourni
+        optional-center: Par défaut à (<white>0<gray>,</gray> 0</white>) si non spécifié
+        optional-player: Par défaut le joueur en cours d'exécution si non spécifié
+            (par la console vous devez spécifier un joueur)
+        help-query: Aide Query
+    hide:
+        already-hidden: <red><player> est déjà caché sur la carte
+        hidden: <green><player> est maintenant caché sur la carte
+    show:
+        not-hidden: <red><player> n'est pas caché sur la map
+        shown: <green><player> n'est plus caché sur la map
+click-to-copy: Click to copy to clipboard
+click-for-help: Cliquez pour demander l'aide
+click-to-confirm: Click to confirm
+click-to-toggle: Click to toggle
+plugin-reloaded: <green><name> v<version> rechargé
+ui:
+    page-title: squaremap - {world}
+    coordinates: Coordonnées<br/>{x}, {z}
+    sidebar:
+        player-list: Joueurs ({cur}/{max})
+        world-list: Mondes
+    layers:
+        player-tracker: Joueurs
+        world-spawn: Spawn
+        world-border: Bordure du Monde
+log:
+    started-full-render: Démarrage du rendu de la carte complète pour <world>
+    started-radius-render: Rendu de la carte de rayon démarré pour <world>
+    scanning-region-files: Numérisation des fichiers de région... (cela peut prendre
+        un moment)
+    found-total-region-files: Fichiers Région <total> trouvé
+    finished-rendering: Carte de rendu terminée pour <world>
+    cancelled-rendering: Le rendu de la map <world> a été intérrompu
+    resumed-rendering: Le rendu de la map <world> a recontinuer
+    scanning-region-progress: '(<percent>) Monde: <world> Chunks: <current_chunks>/<total_chunks>
+        Temps Ecoulé: <elapsed> ETA: <eta> Vitesse: <rate> cps'
+    scanning-region-progress-with-regions: '(<percent>) Monde: <world> Regions: <current_regions>/<total_regions>
+        Chunks: <current_chunks>/<total_chunks> Temps Ecoulé: <elapsed> ETA: <eta>
+        Vitesse: <rate> cps'
+    internal-web-disabled: Le serveur Web interne est désactivé dans le fichier config.yml
+    internal-web-started: Le serveur Web interne fonctionne sur l'adresse <bind>:<port>
+    internal-web-stopped: Le serveur Web interne s'est arrêté
+    internal-web-start-error: Le serveur Web interne n'a pas démarré
+    could-not-create-directory: Impossible de crée le dossier ! <path>
+    could-not-read-region: Could not read map image for region <x>,<z> (image corrupted?).
+        It will be overwritten.
+    could-not-save-region: Impossible d'enregistrer la carte pour la région <x>,<z>
+    internal-web-not-running: Une erreur s'est produite avec le serveur Web interne
+    update-checker:
+        fetching-version-information: Fetching version information...
+        behind-branch: squaremap is <behind> version(s) behind branch '<branch>'!
+        download-dev-builds: Download dev builds from <link>
+        unknown-commit: Unknown commit '<commit>', cannot check for updates.
+        behind-releases: squaremap is <behind> version(s) out of date.
+        download-release: Download the latest release (<latest>) from <link>

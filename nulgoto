@@ -1,0 +1,1 @@
+on:: Set the working directory to the location of this batch filecd /d "D:\MINECRAFT_SERVER\":: Loop to restart the server if it crashes:serverStartecho Starting Paper Minecraft Server...C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\/bin/java.exe -Xms1G -Xmx4G -jar paper.jar noguiecho.echo Server stopped or crashed. Restarting in 5 seconds...timeout /t 5 /nobreak 

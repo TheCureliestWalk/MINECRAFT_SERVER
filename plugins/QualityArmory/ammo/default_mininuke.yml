@@ -1,0 +1,17 @@
+invalid: false
+name: mininuke
+displayname: MiniNuke
+lore: []
+id: 9
+craftingRequirements:
+- IRON_INGOT,0,10
+- TNT,0,16
+craftingReturnAmount: 1
+price: 3000
+maxItemStack: 1
+material: PHANTOM_MEMBRANE
+piercingSeverity: 100.0
+lastModifiedByQA: 1749914022339
+weaponsounds: bulletmedium
+damage: 3
+durability: 1000

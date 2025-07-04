@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.56.129.213
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1751547897072
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751554139375
+  login: 1751540430595
+money: '0'
+logoutlocation:
+  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+  world-name: world
+  x: 209.41227391558164
+  y: 66.0625
+  z: -652.3000000119209
+  yaw: 96.30596923828125
+  pitch: 63.149871826171875
+last-account-name: Kcin404
+lastlocation:
+  world: b2d476ee-15e8-428a-b87d-46f1ec13a167
+  world-name: world
+  x: 720.1611039950812
+  y: -24.0
+  z: -498.8396222374922
+  yaw: -151.8016357421875
+  pitch: 25.799776077270508

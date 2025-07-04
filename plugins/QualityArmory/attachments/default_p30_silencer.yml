@@ -1,0 +1,57 @@
+invalid: false
+name: p30silenced
+displayname: '&6P30[Silenced]'
+lore: []
+id: 23
+craftingRequirements:
+- IRON_INGOT,0,4
+- p30
+price: 1000
+material: CROSSBOW
+baseGun: p30
+lastModifiedByQA: 1749914022691
+ReloadingHandler: SlideReload
+weaponsounds: bulletsilence
+damage: 3
+durability: 1000
+maxItemStack: 1
+weapontype: PISTOL
+enableIronSights: true
+setZoomLevel: 0
+ammotype: 9mm
+sway:
+  defaultValue: 0.2
+  defaultMultiplier: 2
+  sneakModifier: true
+  moveModifier: true
+  runModifier: true
+  unscopedModifier: 1
+firerate: 1
+maxbullets: 12
+delayForReload: 1.5
+delayForShoot: 0.3
+bullets-per-shot: 1
+isAutomatic: false
+maxBulletDistance: 200
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+recoil: 1
+slownessOnEquip: 0
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 1
+  bullet_particleG: 1
+  bullet_particleB: 1
+  bullet_particleData: 0
+  bullet_particleMaterial: COAL_BLOCK
+Version_18_Support: false
+ChargingHandler: none
+addMuzzleSmoke: true
+drop-glow-color: none
+headshotMultiplier: 3.5
+weaponsounds_volume: 4
+weaponsounds_reloadingSound: reloadmagclick
+firing_knockback: 0
+KilledByMessage: '%player% was shot by %killer% using a %name%'
+DestructableMaterials:
+- MATERIAL_NAME_HERE

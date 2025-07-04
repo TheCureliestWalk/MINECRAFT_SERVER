@@ -1,0 +1,69 @@
+# Configuration of rewards, here you can configure rewards for certain crops. #
+# You can use the following types of rewards:
+  # - Command
+  # - Money
+  # - Item
+  # - Summon (Normal or MythicMob)
+# You can use the following crops:
+    # - WHEAT
+    # - CARROTS
+    # - POTATOES
+    # - BEETROOTS
+    # - PUMPKIN
+    # - MELON
+    # - SUGAR_CANE
+    # - CACTUS
+    # - COCOA
+    # - NETHER_WART
+    # - ALL (This includes all the crops above)
+Rewards:
+  example1:
+    crops:
+      - "WHEAT"
+      - "CARROTS"
+      - "POTATOES"
+      - "BEETROOTS"
+    type: "Command"
+    chance: 0.005
+    commands:
+      - 'give %player% diamond 1'
+      - 'economy give %player% 300'
+      - 'fp enchant %player% replenish 3 DIAMOND_HOE'
+    messages:
+      - "%farmingplus_prefix%&aYou won 300$ and 1 diamond!"
+    sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  example2:
+    crops:
+      - "PUMPKIN"
+      - "MELON"
+    type: "Money"
+    chance: 0.1
+    amount: 500
+    messages:
+      - "%farmingplus_prefix%&aYou won 500$!"
+      - "%farmingplus_prefix%&aCongratulations!"
+  example3:
+    crops:
+      - "ALL"
+    type: "Item"
+    chance: 0.03
+    items:
+      - "IRON_INGOT 1"
+      - "GOLD_INGOT 8"
+  example4:
+    crop: "SUGAR_CANE"
+    type: "Summon"
+    chance: 0.003
+    mob: "ZOMBIE"
+    amount: 2
+# You can also summon MythicMobs, just add the name of the mob in the mob field.
+# If you don't put a level, it will spawn the mob with the default level of 1.
+  example5:
+    crop: "NETHER_WART"
+    type: "Summon"
+    chance: 0.0004
+    mob: "SkeletalMinion"
+    amount: 1
+    level: 5
+
+

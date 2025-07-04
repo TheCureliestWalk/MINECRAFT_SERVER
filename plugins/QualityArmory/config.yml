@@ -1,0 +1,104 @@
+ENABLE-DEBUG: false
+language: en
+FriendlyFireEnabled: false
+KickPlayerIfDeniedResourcepack: false
+useDefaultResourcepack: true
+EnableWeaponDurability: false
+BulletDetection:
+  step: 0.1
+BlockBullets:
+  door: false
+  halfslabs: false
+  leaves: false
+  water: false
+  glass: false
+enableInteract:
+  Chests: false
+overrideAnvil: false
+showPossibleCrashHelpMessage: true
+anticheatFix: false
+verboseItemLogging: false
+enable_permssionsToShoot: false
+sendOnJoin: true
+sendTitleOnJoin: false
+resourcepackInvincibility: false
+SecondsTillRPIsSent: 5.0
+enableBulletTrails: true
+BulletTrailsSpacing: 0.5
+enableIgnoreArmorProtection: false
+enableIgnoreUnbreakingChecks: false
+enableIgnoreSkipForBasegameItems: false
+Items:
+  enable_Unbreaking: true
+enableReloadingOnDrop: false
+enableReloadingWhenSwapToOffhand: true
+enableReloadOnlyWhenSwapToOffhand: false
+allowGunHitEntities: false
+showOutOfAmmoOnTitle: false
+showReloadingTitle: false
+showAmmoInXPBar: false
+perWeaponPermission: false
+useMoveForRecoil: true
+weaponSwitchDelay: 0.0
+enableExplosionDamage: false
+enableExplosionDamageDrop: false
+enablePrimaryWeaponLimiter: false
+weaponlimiter_primaries: 2
+weaponlimiter_secondaries: 2
+enableCrafting: true
+enableShop: true
+AUTO-UPDATE: true
+Swap-Reload-and-Shooting-Controls: false
+Order-Shop-By-Price: false
+enable_lore_gun-bullets: false
+enable_lore_gun-info_messages: true
+enable_lore_control-help_messages: true
+Enable_Headshot_Instantkill: true
+Enable_Headshot_Notification_Sound: true
+Headshot_Notification_Sound: entity.experience_orb.pickup
+Headshot_Blacklist: []
+Hit_Notification_Sound: entity.experience_orb.pickup
+Enable_Hit_Sound: false
+Enable_AutoArm_Grenades: false
+gravityConstantForDropoffCalculations: 0.05
+allowGunReload: true
+Auto-Detect-Resourcepack: true
+ManuallyOverrideTo_1_8_systems: false
+ManuallyOverrideTo_1_13_systems: false
+ManuallyOverrideTo_1_14_systems: false
+unknownTranslationKeyFixer: false
+Enable_Creation_Of_Default_Files: true
+EnableGlowEffects: false
+Break-Block-Texture-If-Shot: true
+enableRecoil: true
+experimental:
+  BulletWounds:
+    InitialBloodLevel: 1500.0
+    BloodIncreasePerSecond: 0.01
+    Medkit_Heal_Bloodloss_Rate: 0.05
+    enableBleeding: false
+disableHotbarMessages:
+  OutOfAmmo: false
+  Shoot: false
+  Reload: false
+automaticallyReloadGunWhenOutOfAmmo: false
+generalModifiers:
+  sway:
+    Run: 1.3
+    Walk: 1.5
+    Ironsights: 0.8
+    Sneak: 0.7
+deathmessages:
+  enable: true
+impenetrableEntityTypes:
+- ARROW
+DefaultResourcepackOverride: false
+IronSightsOnRightClick: false
+SwapSneakToSingleFire: false
+DestructableMaterials:
+- MATERIAL_NAME_HERE
+RegenDestructableBlocksAfter: -1
+overrideAttackSpeed: true
+DefaultResourcepack:
+  '0': https://github.com/ZombieStriker/QualityArmory-Resourcepack/releases/download/latest/QualityArmory.zip
+  21-4: https://github.com/ZombieStriker/QualityArmory-Resourcepack/releases/download/latest/QualityArmory-21.zip

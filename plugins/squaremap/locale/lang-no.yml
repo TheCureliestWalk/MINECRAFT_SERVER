@@ -1,0 +1,139 @@
+# Translators: [Baktus79]
+
+render-in-progress: <red>En rendring pågår allerede på <world>
+render-not-in-progress: <red>Ingen rendring kjører for <world>
+cancelled-render: <green>Rendring ble kansellert for <world>
+successfully-reset-map: <green>Vellykket tilbakestilling av kart for <world>
+paused-renders: <green>Satt rendring på pause for <world>
+unpaused-renders: <green>Fortsetter rendring av verden <world>
+command:
+    message:
+        console-must-specify-player: <red>Du må spesifisere en spiller når du kjører
+            denne kommandoen fra konsollen
+        console-must-specify-world: <red>Du må spesifisere verden når du kjører denne
+            kommandoen fra konsollen
+        no-such-world: Ingen slik verden '<world>'
+        map-not-enabled-for-world: Kart er ikke aktivert for verden '<world>'
+        confirmation-required: <red>Bekreftelse påkrevd. Bekreft ved å bruke /<command>
+            confirm.
+        no-pending-commands: <red>Du har ingen ventende kommandoer.
+        progresslogging:
+            enabled: <green>Logging av rendringsfremdrift er aktivert.
+            disabled: <green>Logging av rendringsfremdrift er deaktivert.
+            set-rate: <green>Loggintervall for rendringsfremdrift er satt til </green><seconds>
+                sekunder
+            statusmessage: 'Logg for rendringsfremdrift: <enabled>, intervall: <green><seconds></green>
+                sekunder'
+        link: "Click to open map: <green><click:open_url:'<link>'><link>"
+        help:
+            help: squaremap command help
+            command: Command
+            description: Description
+            no_description: No description
+            arguments: Arguments
+            optional: Optional
+            showing_results_for_query: Showing search results for query
+            no_results_for_query: No results for query
+            available_commands: Available Commands
+            click_to_show_help: Click to show help for this command
+            page_out_of_range: 'Error: Page <page> is not in range. Must be in range
+                [1, <max_pages>]'
+            click_for_next_page: Click for next page
+            click_for_previous_page: Click for previous page
+        exception:
+            command-execution: <red>An internal error occurred while attempting to
+                perform this command.
+            no-permission: |-
+                <red>I'm sorry, but you do not have permission to perform this command.
+                Please contact the server administrators if you believe that this is in error.
+            invalid-argument: <red>Invalid command argument<white>:</white> <gray><message>
+            invalid-sender-type: <red>Invalid command sender type. You must be of
+                type <gray><required_sender_type></gray>.
+            invalid-syntax: <red>Invalid command syntax. Correct command syntax is<white>:</white>
+                <gray><correct_syntax>
+        parser-exception:
+            string: '''<input>'' is not a valid string of type <string_mode>'
+            number: '''<input>'' is not a valid number in the range <min> to <max>'
+            location:
+                invalid_format: '''<input>'' is not a valid location. Required format
+                    is ''<x> <z>'''
+                mixed_local_absolute: Cannot mix local and absolute coordinates. (either
+                    all coordinates use '^' or none do)
+            selector:
+                malformed: Selector '<input>' is malformed
+                too_many_players: More than 1 player selected in single player selector
+                non_player_in_player_selector: Non-player(s) selected in player selector
+    prefix: '<white>[<gradient:#C028FF:#5B00FF>squaremap</gradient>]</white> '
+    description:
+        help: Få hjelp til squaremap kommandoer
+        resetmap: Tilbakestiller kartet på en spesifisert verden
+        confirm: Bekreft en ventende kommando
+        reload: Laster inn plugin på nytt
+        full-render: Starter en fullstendig rendring for den angitte verden
+        cancel-render: Kansellerer en rendring for den angitte verden
+        pause-render: Pauser alle rendring for den angitte verden
+        radius-render: Starter en radiusrendring
+        progresslogging:
+            status: Viser gjeldende innstillinger for logging av rendringsfremdrift
+            toggle: Slår på eller av logging av fremdrift
+            rate: Angir intervallet i sekunder for logging av rendringsfremdrift
+        hide: Skjul en spiller fra kartvisningen
+        show: Vis en spiller på kartvisningen
+        link: Get a link to the map at your current location
+    argument:
+        optional-world: Sett standard til spillernes nåværende verden hvis ikke angitt
+        optional-center: Sett standard til (<white>0<gray>,</gray> 0</white>) hvis
+            uspesifisert
+        optional-player: Sett standard til den utførende spilleren hvis uspesifisert
+            (konsollen må spesifisere en spiller)
+        help-query: Hjelp spørring
+    hide:
+        already-hidden: <red><player> er allerede skjult fra kartet
+        hidden: <green><player> er nå skjult fra kartet
+    show:
+        not-hidden: <red><player> er ikke skjult fra kartet
+        shown: <green><player> er ikke lenger skjult fra kartet
+click-to-copy: Click to copy to clipboard
+click-for-help: Klikk for å få hjelp
+click-to-confirm: Klikk for å bekrefte
+click-to-toggle: Klikk for å veksle
+plugin-reloaded: <green><name> v<version> lastet på nytt
+ui:
+    page-title: squaremap - {world}
+    coordinates: Koordinater<br/>{x}, {z}
+    sidebar:
+        player-list: Spillere ({cur}/{max})
+        world-list: Verdener
+    layers:
+        player-tracker: Spillere
+        world-spawn: Startpunkt
+        world-border: Verdensgrense
+log:
+    started-full-render: Startet full rendring for <world>
+    started-radius-render: Startet radiusrendring for <world>
+    scanning-region-files: Skanner regionfiler... (dette kan ta et øyeblikk)
+    found-total-region-files: Funnet <total> regionfiler
+    finished-rendering: Fullført rendring av kart for <world>
+    cancelled-rendering: Rendring av kart for <world> har blitt avbrutt
+    resumed-rendering: Rendring av kart for <world> har blitt gjenopptatt
+    scanning-region-progress: '(<percent>) Verden: <world> Chunks: <current_chunks>/<total_chunks>
+        Forløpt: <elapsed> ETA: <eta> Rate: <rate> cps'
+    scanning-region-progress-with-regions: '(<percent>) Verden: <world> Regioner:
+        <current_regions>/<total_regions> Chunks: <current_chunks>/<total_chunks>
+        Forløpt: <elapsed> ETA: <eta> Rate: <rate> cps'
+    internal-web-disabled: Intern webserver er deaktivert i config.yml
+    internal-web-started: Intern webserver kjører på <bind>:<port>
+    internal-web-stopped: Intern webserver stoppet
+    internal-web-start-error: Intern webserver kunne ikke starte
+    could-not-create-directory: Kunne ikke opprette mappe! <path>
+    could-not-read-region: Kunne ikke lese kartbilde for region <x>,<z> (bildet ødelagt?).
+        Den vil bli overskrevet.
+    could-not-save-region: Kunne ikke lagre kartet for regionen <x>,<z>
+    internal-web-not-running: Det oppsto en feil med den interne webserveren
+    update-checker:
+        fetching-version-information: Fetching version information...
+        behind-branch: squaremap is <behind> version(s) behind branch '<branch>'!
+        download-dev-builds: Download dev builds from <link>
+        unknown-commit: Unknown commit '<commit>', cannot check for updates.
+        behind-releases: squaremap is <behind> version(s) out of date.
+        download-release: Download the latest release (<latest>) from <link>
