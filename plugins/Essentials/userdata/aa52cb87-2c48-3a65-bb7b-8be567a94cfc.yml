@@ -16,17 +16,17 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751810607060
-  login: 1751807899621
+  logout: 1751977819878
+  login: 1751973126235
 money: '0'
 logoutlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
   world-name: world
-  x: 445.30000001192093
-  y: 87.0
-  z: -500.6472084243594
-  yaw: -15.9228515625
-  pitch: 34.94997787475586
+  x: 358.30000001192093
+  y: 98.0
+  z: -498.96167867351613
+  yaw: 58.0474853515625
+  pitch: 22.500022888183594
 last-account-name: Kcin404
 lastlocation:
   world: b2d476ee-15e8-428a-b87d-46f1ec13a167
