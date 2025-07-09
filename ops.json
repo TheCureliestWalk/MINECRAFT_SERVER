@@ -6,6 +6,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "00000000-0000-0000-0009-01ff313699b2",
+    "name": ".claire0o0",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "a5258050-5fec-4705-84c5-0b42871eed6a",
     "name": "Kcin404",
     "level": 4,
@@ -26,6 +32,12 @@
   {
     "uuid": "aa52cb87-2c48-3a65-bb7b-8be567a94cfc",
     "name": "Kcin404",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "00000000-0000-0000-0009-01ff8f96aeaa",
+    "name": ".TheKeqs",
     "level": 4,
     "bypassesPlayerLimit": false
   },

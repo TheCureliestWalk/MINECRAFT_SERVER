@@ -34,7 +34,12 @@ world:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    ambient:
+    animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    axolotl:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -49,12 +54,12 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    axolotl:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -64,12 +69,7 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    monster:
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1

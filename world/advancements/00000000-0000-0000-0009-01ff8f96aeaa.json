@@ -1,16 +1,1 @@
-{
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-07-02 18:42:41 +0700"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:forest": "2025-07-02 18:42:42 +0700",
-      "minecraft:plains": "2025-07-02 18:42:59 +0700"
-    },
-    "done": false
-  },
-  "DataVersion": 4435
-}
+{"minecraft:recipes/decorations/crafting_table":{"criteria":{"unlock_right_away":"2025-07-02 18:42:41 +0700"},"done":true},"minecraft:adventure/adventuring_time":{"criteria":{"minecraft:forest":"2025-07-02 18:42:42 +0700","minecraft:river":"2025-07-10 01:37:32 +0700","minecraft:meadow":"2025-07-10 01:36:02 +0700","minecraft:stony_shore":"2025-07-10 01:44:41 +0700","minecraft:snowy_taiga":"2025-07-10 01:58:50 +0700","minecraft:frozen_peaks":"2025-07-10 01:37:36 +0700","minecraft:plains":"2025-07-02 18:42:59 +0700"},"done":false},"minecraft:recipes/transportation/mangrove_boat":{"criteria":{"in_water":"2025-07-10 01:46:13 +0700"},"done":true},"minecraft:recipes/transportation/acacia_boat":{"criteria":{"in_water":"2025-07-10 01:46:13 +0700"},"done":true},"minecraft:recipes/transportation/cherry_boat":{"criteria":{"in_water":"2025-07-10 01:46:13 +0700"},"done":true},"minecraft:recipes/transportation/pale_oak_boat":{"criteria":{"in_water":"2025-07-10 01:46:13 +0700"},"done":true},"minecraft:recipes/transportation/bamboo_raft":{"criteria":{"in_water":"2025-07-10 01:46:13 +0700"},"done":true},"minecraft:recipes/transportation/spruce_boat":{"criteria":{"in_water":"2025-07-10 01:46:13 +0700"},"done":true},"minecraft:recipes/transportation/birch_boat":{"criteria":{"in_water":"2025-07-10 01:46:13 +0700"},"done":true},"minecraft:recipes/transportation/oak_boat":{"criteria":{"in_water":"2025-07-10 01:46:13 +0700"},"done":true},"minecraft:recipes/transportation/jungle_boat":{"criteria":{"in_water":"2025-07-10 01:46:13 +0700"},"done":true},"minecraft:recipes/transportation/dark_oak_boat":{"criteria":{"in_water":"2025-07-10 01:46:13 +0700"},"done":true},"minecraft:nether/root":{"criteria":{"entered_nether":"2025-07-10 01:46:39 +0700"},"done":true},"minecraft:story/enter_the_nether":{"criteria":{"entered_nether":"2025-07-10 01:46:39 +0700"},"done":true},"minecraft:nether/explore_nether":{"criteria":{"minecraft:crimson_forest":"2025-07-10 01:46:40 +0700"},"done":false},"DataVersion":4438}
