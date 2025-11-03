@@ -207,7 +207,8 @@ gui:
 # Enable or disable default skins
 # applyForPremium: false will only put a skin on skinless/steve players.
 # If there is more than one, the plugin will choose a random one.
-# [?] Supports custom & url.png skins, read SkinFile Generator below.
+# You can use "<random>" in the defaultSkins list to select a random SkinsRestorer recommended skin.
+# [!] url.png skins will be cached and therefore will not be updated
 storage:
     defaultSkins:
         enabled: false
@@ -296,6 +297,10 @@ api:
     # It will prevent loading of recommended skins from storage and downloading new ones.
     # Be aware that commands like /skin random will not work without this feature.
     fetchRecommendedSkins: true
+    # Window size in seconds for batching Mojang API requests to avoid rate limits.
+    # Requests are batched in windows of this duration or up to 10 requests, whichever comes first.
+    # Default is 1 second.
+    mojangBatchWindowSeconds: 1
 
 ###############
 # Danger Zone #
